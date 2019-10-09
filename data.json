@@ -1,0 +1,838 @@
+{
+	"info": {
+		"name": "El Rondel",
+		"address": "Av. de Barcelona, 8, 18006 Granada",
+		"image": "rondel.jpg",
+		"hours": "Lunes-Viernes: 9:30-16:00 y 20:00-23:00\nSábados: 12:30-16:00 y 20:00-23:00\nDomingos: cerrado",
+		"hoursDetails": "Cocina abierta desde las 12:30 hasta la hora de cierre"
+	},
+	"sections": {
+		"tapas": {
+			"name": "Tapas",
+			"image": "beicon.jpg",
+			"items": ["beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
+			"info": "Todas nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa."
+		},
+		"tapas-dia": {
+			"name": "Tapas del día",
+			"image": "salmorejo.jpg",
+			"items": ["fajita", "salmorejo", "habas-huevo", "cazuela"],
+			"info": "Nuestra selección de tapas del día va variando. Pregunte disponibilidad al camarero."
+		},
+		"desayunos": {
+			"name": "Desayunos",
+			"image": "desayunos.jpg",
+			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"]
+},
+		"tostadas": {
+			"name": "Tostadas",
+			"image": "tomate.jpg",
+			"items": ["aceite", "tomate", "pate", "mantequilla", "mixta", "sobrasada",  "york", "serrano", "ingrediente", "sandwich-mixto"],
+			"hasSizes": ["Elija el tamaño", "Media", "Entera"],
+			"info": "De chapata integral"
+		},
+		"bocadillos": {
+			"name": "Bocadillos",
+			"image": "carne-bocata-grande.jpg",
+			"items": ["queso-bocata", "jamon-bocata-grande", "calamares-bocata", "lomo-bocata", "hamburguesa-completa", "hamburguesa-mixta", "beicon-bocata", "carne-bocata-grande"]
+		},
+		"raciones": {
+			"name": "Raciones",
+			"image": "calamares-racion.jpg",
+			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "calamares-racion", "cazon-racion", "tomate-racion", "ensalada", "plato-dia", "plato-combinado"],
+			"hasSizes": ["Elija el tamaño", "Media", "Entera"]
+		},
+		"bebidas": {
+			"name": "Bebidas",
+			"image": "bebidas.jpg",
+			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "heineken", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
+			"info": "Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa."
+		},
+		"vinos": {
+			"name": "Vinos",
+			"image": "vinos.jpg",
+			"items": ["vino-terreno", "vino-blanco", "vino-frizzante", "vino-semi-dulce", "rioja", "ribera", "vino-casa"],
+			"hasSizes": ["Elija el tamaño", "Copa", "Botella"],
+			"info": "Las copas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Las botellas vienen acompañadas de 5 <a href=\"#/section/tapas\">tapas</a>. Máximo dos variedades por mesa."
+		}
+	},
+	"items": {
+		"beicon": {
+			"name": "Bocata de beicon",
+			"price": 1.8,
+			"image": "beicon.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": "Con queso, huevo, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+"lomo": {
+			"name": "Bocata de lomo",
+			"price": 1.8,
+			"missing": "beicon.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten", "huevos"],
+			"description": "Con queso, lechuga, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"carne-bocata": {
+			"name": "Bocata de carne en salsa",
+			"price": 1.8,
+			"image": "carne-bocata.jpg",
+			"filters": [],
+			"allergens": ["sulfitos", "gluten"],
+			"description": "Nuestra famosa carne en salsa en bocata acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+		},
+		"burguer-pollo": {
+			"name": "Burguer de pollo empanado",
+			"price": 1.8,
+			"image": "burguer-pollo.jpg",
+			"filters": [],
+			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
+			"description": "Con queso, lechuga, tomate y kétchup. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"burguer-plancha": {
+			"name": "Burguer plancha",
+			"price": 1.8,
+			"image": "burguer-plancha.jpg",
+			"filters": [],
+			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
+			"description": "Con lechuga, tomate, kétchup y beicon. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"jamon-bocata": {
+			"name": "Bocata de jamón serrano",
+			"price": 1.8,
+			"missing": "beicon.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "gluten"],
+			"description": "Con queso y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"tortilla": {
+			"name": "Bocata de tortilla francesa",
+			"price": 1.8,
+			"image": "tortilla.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "gluten"],
+			"description": "Con tomate, lechuga y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"flamenquin": {
+			"name": "Flamenquín",
+			"price": 1.8,
+			"image": "flamenquin.jpg",
+			"filters": [],
+			"allergens": ["gluten", "lacteos", "huevos"],
+			"description": "De lomo, jamón serrano y queso. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"finger": {
+			"name": "Finger de pollo",
+			"price": 1.8,
+			"image": "finger.jpg",
+			"filters": [],
+			"allergens": ["gluten", "huevos"],
+			"description": "A las finas hierbas con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)"
+		},
+		"carne": {
+			"name": "Carne en salsa",
+			"price": 1.8,
+			"image": "carne.jpg",
+			"filters": [],
+			"allergens": ["sulfitos", "gluten"],
+			"description": "Nuestra famosa carne en salsa en plato con patatas fritas y pan"
+		},
+		"huevo": {
+			"name": "Huevo con jamón y patatas",
+			"price": 1.8,
+			"image": "huevo.jpg",
+			"filters": [],
+			"allergens": ["huevos", "gluten"],
+			"description": "Tradicional plato de huevo con jamón"
+		},
+		"pinchitos": {
+			"name": "Pinchitos morunos",
+			"price": 1.8,
+			"image": "pinchito.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "El clásico pinchito moruno acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)"
+		},
+		"calamares": {
+			"name": "Calamares fritos",
+			"price": 1.8,
+			"image": "calamares.jpg",
+			"filters": [],
+			"allergens": ["pescado", "gluten"],
+			"description": "Deliciosos calamares fritos con guarnición de berenjenas o patatas"
+		},
+		"cazon": {
+			"name": "Cazón adobado",
+			"price": 1.8,
+			"image": "cazon.jpg",
+			"filters": [],
+			"allergens": ["pescado", "gluten"],
+			"description": "Con guarnición de berenjenas o patatas"
+		},
+		"sandwich": {
+			"name": "Sándwich \"EL RONDEL\"",
+			"price": 1.8,
+			"image": "sandwich.jpg",
+			"filters": [],
+			"allergens": ["gluten", "lacteos", "huevos"],
+			"description": "Sandwich de tres pisos con York, beicon, huevo, tomate, lechuga y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"sandwich-vegetal": {
+			"name": "Sándwich vegetal",
+			"price": 1.8,
+			"missing": "sandwich.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["gluten", "huevos"],
+			"description": "Con tomate, lechuga, maíz, espárragos y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"sandwich-mixto": {
+			"name": "Sándwich mixto",
+			"price": 1.8,
+			"missing": "sandwich.jpg",
+			"filters": [],
+			"allergens": ["gluten", "lacteos"],
+			"description": "De york y queso con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)"
+		},
+		"berenjenas": {
+			"name": "Berenjenas con miel",
+			"price": 1.8,
+			"image": "berenjenas.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["gluten"],
+			"description": "Con miel de caña"
+		},
+		"queso": {
+			"name": "Queso manchego",
+			"price": 1.8,
+			"missing": "jamon-queso.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Nuestro queso manchego acompañado por un poco de pan"
+		},
+		"jamon": {
+			"name": "Jamón serrano",
+			"price": 1.8,
+			"missing": "jamon-queso.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Delicioso jamón serrano acompañado por un poco de pan"
+		},
+		"salmorejo": {
+			"name": "Salmorejo",
+			"price": 1.8,
+			"image": "salmorejo.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["gluten", "huevos"],
+			"description": "Crema de tomate típico de la zona de Andalucía"
+		},
+		"fajita": {
+			"name": "Fajita",
+			"price": 1.8,
+			"image": "fajita.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": "Fajita de carne picada con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)"
+		},
+		"habas-huevo": {
+			"name": "Habas con huevo frito",
+			"price": 1.8,
+			"image": "habas-huevo.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos"],
+			"description": "Clásico plato de habas con huevo acompañadas por un poco de pan"
+		},
+		"cazuela": {
+			"name": "Cazuela",
+			"price": 1.8,
+			"image": "cazuela.jpg",
+			"filters": [],
+			"allergens": ["marisco", "gluten"],
+			"description": "Cazuela de fideos con marisco acompañada por un poco de pan"
+		},
+		"aceite": {
+			"name": "Tostada de aceite",
+			"prices": [0.70, 1.20],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["gluten"],
+			"description": "!!!"
+		},
+		"tomate": {
+			"name": "Tostada de tomate",
+			"prices": [0.70, 1.20],
+			"pricesNames": ["Media", "Entera"],
+			"image": "tomate.jpeg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["gluten"],
+			"description": "!!!"
+		},
+		"pate": {
+			"name": "Tostada de paté",
+			"prices": [0.70, 1.20],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": [],
+			"allergens": ["gluten", "huevos", "lacteos"],
+			"description": "!!!"
+		},
+		"mantequilla": {
+			"name": "Tostada de mantequilla",
+			"prices": [0.70, 1.20],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": ["vegetarian"],
+			"allergens": ["gluten", "lacteos"],
+			"description": "!!!"
+		},
+		"mixta": {
+			"name": "Tostada mixta",
+			"prices": [0.70, 1.20],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": ["vegetarian"],
+			"allergens": ["gluten", "lacteos"],
+			"description": "Mixta de mantequilla y mermelada"
+		},
+		"sobrasada": {
+			"name": "Tostada de sobrasada",
+			"prices": [0.70, 1.20],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": [],
+			"allergens": ["gluten", "lacteos"],
+			"description": "!!!"
+		},
+		"york": {
+			"name": "Tostada de jamón york",
+			"prices": [1.10, 2],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": "!!!"
+		},
+		"serrano": {
+			"name": "Tostada de jamón serrano",
+			"prices": [1.10, 2.00],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": "!!!"
+		},
+		"ingrediente": {
+			"name": "Ingrediente extra",
+			"prices": [0.30, 0.50],
+			"pricesNames": ["Media", "Entera"],
+			"image": "ingrediente.jpeg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Añade el ingrediente extra que quieras"
+		},
+		"queso-bocata": {
+			"name": "Bocadillo de queso con tomate",
+			"price": 4.0,
+			"missing": "carne-bocata-grande.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos", "gluten"],
+			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+},
+		"jamon-bocata-grande": {
+			"name": "Bocadillo de jamón serrano con tomate",
+			"price": 4.0,
+			"missing": "carne-bocata-grande.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+		},
+		"calamares-bocata": {
+			"name": "Bocadillo de calamares fritos con mayonesa",
+			"price": 4.0,
+			"missing": "carne-bocata-grande.jpg",
+			"filters": [],
+			"allergens": ["pescado", "lacteos", "gluten"],
+			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+		},
+		"lomo-bocata": {
+			"name": "Lomo completo",
+			"price": 4.0,
+			"missing": "carne-bocata-grande.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": "Lomo, beicon, queso, huevo, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"hamburguesa-completa": {
+			"name": "Hamburguesa completa de pollo empanado",
+			"price": 4.0,
+			"missing": "burguer-pollo.jpg",
+			"filters": [],
+			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
+			"description": "2 hamburguesas de pollo, huevo, beicon, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"hamburguesa-mixta": {
+			"name": "Hamburguesa casera mixta",
+			"price": 4.0,
+			"missing": "burguer-plancha.jpg",
+			"filters": [],
+			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
+			"description": "2 hamburguesas, huevo, beicon, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"beicon-bocata": {
+			"name": "Beicon completo",
+			"price": 4.0,
+			"missing": "carne-bocata-grande.jpg",
+			"filters": [],
+			"allergens": ["lacteos", "huevo", "gluten"],
+			"description": "Beicon, huevo, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"carne-bocata-grande": {
+			"name": "Bocadillo de carne en salsa",
+			"price": 4.0,
+			"image": "carne-bocata-grande.jpg",
+			"filters": [],
+			"allergens": ["sulfitos", "gluten"],
+			"description": "Bocata de nuestra famosa carne en salsa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+		},
+		"queso-racion": {
+			"name": "Queso manchego",
+			"prices":  [5.0, 9.0],
+			"pricesNames": ["Media", "Entera"],
+			"image": "queso-racion.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Nuestro queso manchego (aprox. 120 gr.) acompañado por un poco de pan."
+		},
+		"jamon-racion": {
+			"name": "Jamón serrano",
+			"prices":  [5.0, 9.0],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "queso-racion.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Delicioso jamón serrano acompañado por un poco de pan"
+		},
+		"berenjenas-racion": {
+			"name": "Berenjenas fritas con miel",
+			"prices":  [3.5, 6.0],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "berenjenas.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["gluten"],
+			"description": "(!!!)"
+		},
+		"carne-racion": {
+			"name": "Carne en salsa",
+			"prices":  [4.5, 8.0],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "carne.jpg",
+			"filters": [],
+			"allergens": ["sulfitos", "gluten"],
+			"description": "(!!!)"
+		},
+		"calamares-racion": {
+			"name": "Calamares fritos o Rejos",
+			"prices":  [4.5, 8.0],
+			"pricesNames": ["Media", "Entera"],
+			"image": "calamares-racion.jpg",
+			"filters": [],
+			"allergens": ["gluten", "pescado"],
+			"description": "(!!!)"
+		},
+		"cazon-racion": {
+			"name": "Cazón adobado",
+			"prices":  [4.5, 8.0],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "calamares-racion.jpg",
+			"filters": [],
+			"allergens": ["gluten", "pescado"],
+			"description": "(!!!)"
+		},
+		"tomate-racion": {
+			"name": "Tomate aliñado",
+			"price":  3.5,
+			"missing": "calamares-racion.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"ensalada": {
+			"name": "Ensalada de la casa",
+			"price":  5.0,
+			"missing": "calamares-racion.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": "Lechuga, tomate, atún, espárragos, maíz y aceitunas"
+		},
+		"plato-dia": {
+			"name": "Plato del día",
+			"price":  3.5,
+			"missing": "calamares-racion.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["moluscos", "apio", "gluten"],
+			"description": "De lunes a sábado"
+		},
+		"plato-combinado": {
+			"name": "Plato combinado",
+			"price":  4.0,
+			"missing": "calamares-racion.jpg",
+			"filters": [],
+			"allergens": ["huevos", "gluten"],
+			"description": "Huevo, patatas, lomo y pisto"
+		},
+		"cafe": {
+			"name": "Café",
+			"price": 1.2,
+			"image": "cafe.png",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Sólo, con leche o cortado"
+		},
+		"infusion": {
+			"name": "Infusión",
+			"price": 1.2,
+			"image": "infusion.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"cafe-bombon": {
+			"name": "Café bombón",
+			"price": 1.6,
+			"image": "cafe-bombon.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "(!!!)"
+		},
+		"carajillo": {
+			"name": "Carajillo",
+			"price": 1.8,
+			"image": "carajillo.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"carajillo-baileys": {
+			"name": "Carajillo de Baileys",
+			"price": 2.2,
+			"image": "carajillo-baileys.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "(!!!)"
+		},
+		"cola-cao": {
+			"name": "Cola Cao",
+			"price": 1.5,
+			"image": "cola-cao.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "(!!!)"
+		},
+		"batido": {
+			"name": "Batido de chocolate",
+			"price": 1.8,
+			"image": "batido.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "(!!!)"
+		},
+		"zumo-natural": {
+			"name": "Zumo de naranja natural",
+			"price": 2,
+			"image": "zumo-natural.png",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Recién exprimido"
+		},
+		"zumos": {
+			"name": "Zumos",
+			"price": 1.4,
+			"image": "zumos.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"refrescos": {
+			"name": "Refrescos",
+			"price": 2.3,
+			"image": "refrescos.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"vino-sin": {
+			"name": "Vino sin alcohol",
+			"price": 2.3,
+			"image": "vino-sin.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"tinto-verano": {
+			"name": "Tinto de verano",
+			"price": 2.3,
+			"image": "tinto-verano.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"nestea-aquarius": {
+			"name": "Nestea o Aquarius",
+			"price": 2.4,
+			"image": "nestea-aquarius.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"cana": {
+			"name": "Caña (Alhambra)",
+			"price": 2,
+			"image": "cana.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"tubo": {
+			"name": "Tubo (Alhambra)",
+			"price": 2.3,
+			"image": "tubo.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"quinto": {
+			"name": "Quinto (Alhambra Especial)",
+			"price": 2.2,
+			"image": "quinto.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"tercio": {
+			"name": "Tercio de Especial, Randler o Shandy",
+			"price": 2.4,
+			"image": "tercio.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"heineken": {
+			"name": "1925, Heineken o Voll-Damm",
+			"price": 2.8,
+			"image": "heineken.jpeg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"roja": {
+			"name": "Alhambra Reserva Roja",
+			"price": 3,
+			"image": "roja.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"quinto-00": {
+			"name": "Quinto 00",
+			"price": 2.2,
+			"image": "quinto-00.png",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"tercio-00": {
+			"name": "Tercio 00",
+			"price": 2.4,
+			"image": "tercio-00.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"combinado": {
+			"name": "Combinado",
+			"price": 4,
+			"image": "combinado.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"combinado-especial": {
+			"name": "Combinado especial",
+			"price": 4.5,
+			"image": "combinado-especial.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"chupito": {
+			"name": "Chupito",
+			"price": 1,
+			"image": "chupito.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"copa-licor": {
+			"name": "Copa de Licor",
+			"price": 1.8,
+			"image": "copa-licor.jpeg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"vaso-licor": {
+			"name": "Vaso de Licor",
+			"price": 3,
+			"image": "vaso-licor.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "(!!!)"
+		},
+		"vino-terreno": {
+			"name": "Vino del terreno",
+			"price": 2.6,
+			"image": "vino-terreno.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "Solo en temporada"
+		},
+		"vino-blanco": {
+			"name": "Vino blanco \"Rueda\"",
+			"prices": [2.6, 13],
+			"pricesNames": ["Copa", "Botella"],
+			"image": "vino-blanco.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"vino-frizzante": {
+			"name": "Vino Frizzante",
+			"prices": [2.6, 13],
+			"pricesNames": ["Copa", "Botella"],
+			"image": "vino-frizzante.jpeg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"vino-semi-dulce": {
+			"name": "Vino blanco semi-dulce",
+			"prices": [2.8, 14],
+			"pricesNames": ["Copa", "Botella"],
+			"image": "vino-semi-dulce.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"rioja": {
+			"name": "Rioja (crianza)",
+			"prices": [2.8, 14],
+			"pricesNames": ["Copa", "Botella"],
+			"image": "rioja.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"ribera": {
+			"name": "Ribera del Duero (crianza)",
+			"prices": [2.8, 14],
+			"pricesNames": ["Copa", "Botella"],
+			"image": "ribera.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		},
+		"vino-casa": {
+			"name": "Vino de la Casa",
+			"prices": [2, 13],
+			"pricesNames": ["Copa", "Botella"],
+			"image": "vino-casa.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "(!!!)"
+		}
+	},
+	"filters": [
+		{
+			"id": "vegetarian",
+			"name": "Vegetariano",
+			"description": "Mostrar solo platos aptos para vegetarianos"
+		},
+		{
+			"id": "vegan",
+			"name": "Vegano",
+			"description": "Mostrar solo platos aptos para veganos"
+		}
+	],
+	"allergens": {
+		"gluten": {
+			"name": "Sin gluten",
+			"image": "gluten.svg",
+			"description": "Mostrar solo platos que no contengan gluten"
+		},
+		"huevos": {
+			"name": "Sin huevos",
+			"image": "huevos.svg",
+			"description": "Mostrar solo platos que no contengan huevos"
+		},
+		"pescado": {
+			"name": "Sin pescado",
+			"image": "pescado.svg",
+			"description": "Mostrar solo platos que no contengan pescado"
+		},
+		"lacteos": {
+			"name": "Sin lácteos",
+			"image": "lacteos.svg",
+			"description": "Mostrar solo platos que no contengan lácteos"
+		},
+		"soja": {
+			"name": "Sin soja",
+			"image": "soja.svg",
+			"description": "Mostrar solo platos que no contengan soja"
+		},
+		"frutos": {
+			"name": "Sin frutos de cáscara",
+			"image": "frutos-cascara.svg",
+			"description": "Mostrar solo platos que no contengan frutos de cáscara"
+		},
+		"crustaceos": {
+			"name": "Sin crustáceos",
+			"image": "crustaceos.svg",
+			"description": "Mostrar solo platos que no contengan crustáceos"
+		},
+		"sesamo": {
+			"name": "Sin sésamo",
+			"image": "sesamo.svg",
+			"description": "Mostrar solo platos que no contengan granos de sésamo"
+		},
+		"moluscos": {
+			"name": "Sin moluscos",
+			"image": "moluscos.svg",
+			"description": "Mostrar solo platos que no contengan moluscos"
+		},
+		"sulfitos": {
+			"name": "Sin sulfitos",
+			"image": "sulfitos.svg",
+			"description": "Mostrar solo platos que no contengan dióxido de azufre ni sulfitos"
+		},
+		"mostaza": {
+			"name": "Sin mostaza",
+			"image": "mostaza.svg",
+			"description": "Mostrar solo platos que no contengan mostaza"
+		},
+		"apio": {
+			"name": "Sin apio",
+			"image": "apio.svg",
+			"description": "Mostrar solo platos que no contengan apio"
+		},
+		"cacahuetes": {
+			"name": "Sin cacahuetes",
+			"image": "cacahuetes.svg",
+			"description": "Mostrar solo platos que no contengan cacahuetes"
+		},
+		"altramuces": {
+			"name": "Sin altramuces",
+			"image": "altramuces.svg",
+			"description": "Mostrar solo platos que no contengan altramuces"
+		}
+	}
+}
