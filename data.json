@@ -26,7 +26,7 @@
 },
 		"tostadas": {
 			"name": "Tostadas",
-			"image": "tomate.jpg",
+			"image": "tomate.jpeg",
 			"items": ["aceite", "tomate", "pate", "mantequilla", "mixta", "sobrasada",  "york", "serrano", "ingrediente", "sandwich-mixto"],
 			"hasSizes": ["Elija el tamaño", "Media", "Entera"],
 			"info": "De chapata integral"
@@ -148,7 +148,7 @@
 		"pinchitos": {
 			"name": "Pinchitos morunos",
 			"price": 1.8,
-			"image": "pinchito.jpg",
+			"image": "pinchitos.jpg",
 			"filters": [],
 			"allergens": [],
 			"description": "El clásico pinchito moruno acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)"
