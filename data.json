@@ -52,7 +52,7 @@
 			"name": "Vinos",
 			"image": "vinos.jpg",
 			"items": ["vino-terreno", "vino-blanco", "vino-frizzante", "vino-semi-dulce", "rioja", "ribera", "vino-casa"],
-			"hasSizes": ["Elija el tamaño", "Copa", "Botella"],
+			"hasSizes": ["Elija el tamaño", "Botella", "Copa"],
 			"info": "Las copas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Las botellas vienen acompañadas de 5 <a href=\"#/section/tapas\">tapas</a>. Máximo dos variedades por mesa."
 		}
 	},
@@ -698,8 +698,8 @@
 		},
 		"vino-blanco": {
 			"name": "Vino blanco \"Rueda\"",
-			"prices": [2.6, 13],
-			"pricesNames": ["Copa", "Botella"],
+			"prices": [13, 2.6],
+			"pricesNames": ["Botella", "Copa"],
 			"image": "vino-blanco.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -707,8 +707,8 @@
 		},
 		"vino-frizzante": {
 			"name": "Vino Frizzante",
-			"prices": [2.6, 13],
-			"pricesNames": ["Copa", "Botella"],
+			"prices": [13, 2.6],
+			"pricesNames": ["Botella", "Copa"],
 			"image": "vino-frizzante.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -716,8 +716,8 @@
 		},
 		"vino-semi-dulce": {
 			"name": "Vino blanco semi-dulce",
-			"prices": [2.8, 14],
-			"pricesNames": ["Copa", "Botella"],
+			"prices": [14, 2.8],
+			"pricesNames": ["Botella", "Copa"],
 			"image": "vino-semi-dulce.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -725,8 +725,8 @@
 		},
 		"rioja": {
 			"name": "Rioja (crianza)",
-			"prices": [2.8, 14],
-			"pricesNames": ["Copa", "Botella"],
+			"prices": [14, 2.8],
+			"pricesNames": ["Botella", "Copa"],
 			"image": "rioja.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -734,8 +734,8 @@
 		},
 		"ribera": {
 			"name": "Ribera del Duero (crianza)",
-			"prices": [2.8, 14],
-			"pricesNames": ["Copa", "Botella"],
+			"prices": [14, 2.8],
+			"pricesNames": ["Botella", "Copa"],
 			"image": "ribera.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -743,8 +743,8 @@
 		},
 		"vino-casa": {
 			"name": "Vino de la Casa",
-			"prices": [2, 13],
-			"pricesNames": ["Copa", "Botella"],
+			"prices": [13, 2],
+			"pricesNames": ["Botella", "Copa"],
 			"image": "vino-casa.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
