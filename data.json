@@ -246,7 +246,7 @@
 			"price": 1.8,
 			"image": "cazuela.jpg",
 			"filters": [],
-			"allergens": ["marisco", "gluten"],
+			"allergens": ["pescado", "gluten"],
 			"description": "Cazuela de fideos con marisco acompañada por un poco de pan"
 		},
 		"aceite": {
