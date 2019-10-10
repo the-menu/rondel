@@ -338,7 +338,7 @@
 			"name": "Tostada mixta",
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
-			"missing": "tomate.jpeg",
+			"missing": "mantequilla.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "lacteos"],
 			"description": "De mantequilla y mermelada"
