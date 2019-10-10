@@ -15,7 +15,7 @@
 		},
 		"tapas-dia": {
 			"name": "Tapas del día",
-			"image": "salmorejo.jpg",
+			"image": "paella.jpg",
 			"items": ["fajita", "salmorejo", "habas-huevo", "pescado", "cocido", "cazuela", "alubias", "paella", "lentejas", "migas"],
 			"info": "Nuestra selección de tapas del día va variando. Estos son algunos ejemplos. Pregunte al camarero."
 		},
@@ -39,7 +39,7 @@
 		},
 		"raciones": {
 			"name": "Raciones",
-			"image": "calamares-racion.jpg",
+			"image": "plato-dia.jpeg",
 			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "calamares-racion", "cazon-racion", "tomate-racion", "ensalada", "plato-dia", "plato-combinado"],
 			"hasSizes": ["Elija el tamaño", "Media", "Entera"]
 		},
@@ -248,7 +248,7 @@
 			"image": "cazuela.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
-			"description": "Cazuela de fideos con marisco acompañada por un poco de pan"
+			"description": "Cazuela de fideos con marisco acompañada por un poco de pan. Todos los martes."
 		},
 		"pescado": {
 			"name": "Pescaíto frito",
@@ -261,42 +261,42 @@
 		"cocido": {
 			"name": "Cocido",
 			"price": 1.8,
-			"missing": "paella.jpeg",
+			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": ["apio"],
-			"description": "Casero"
+			"description": "Todos los lunes"
 		},
 		"alubias": {
 			"name": "Alubias con almejas",
 			"price": 1.8,
-			"missing": "paella.jpeg",
+			"missing": "paella.jpg",
 			"filters": [],
-			"allergens": ["moluscos"],
-			"description": ""
+			"allergens": ["moluscos", "gluten"],
+			"description": "Todos los miércoles"
 		},
 		"paella": {
 			"name": "Paella",
 			"price": 1.8,
-			"image": "paella.jpeg",
+			"image": "paella.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
-			"description": "Casera"
+			"description": "Todos los jueves"
 		},
 		"lentejas": {
 			"name": "Lentejas estofadas con chorizo",
 			"price": 1.8,
-			"missing": "paella.jpeg",
+			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": "Caseras"
+			"description": "Todos los viernes"
 		},
 		"migas": {
 			"name": "Migas",
 			"price": 1.8,
-			"missing": "paella.jpeg",
+			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
-			"description": "Caseras"
+			"description": "Todos los sábados"
 		},
 		"aceite": {
 			"name": "Tostada de aceite",
@@ -525,7 +525,7 @@
 		"plato-dia": {
 			"name": "Plato del día",
 			"price":  3.5,
-			"missing": "paella.jpeg",
+			"missing": "plato-dia.jpeg",
 			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
 			"description": "Lunes: cocido. Martes: cazuela. Miércoles: alubias con almejas. Jueves: paella. Viernes: lentejas estofadas con chorizo. Sábado: migas."
