@@ -329,7 +329,7 @@
 			"name": "Tostada de mantequilla",
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
-			"image": "mantequilla.jpeg",
+			"image": "mantequilla.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "lacteos"],
 			"description": ""
