@@ -16,13 +16,14 @@
 		"tapas-dia": {
 			"name": "Tapas del día",
 			"image": "salmorejo.jpg",
-			"items": ["fajita", "salmorejo", "habas-huevo", "cazuela"],
-			"info": "Nuestra selección de tapas del día va variando. Pregunte disponibilidad al camarero."
+			"items": ["fajita", "salmorejo", "habas-huevo", "pescado", "cocido", "cazuela", "alubias", "paella", "lentejas", "migas"],
+			"info": "Nuestra selección de tapas del día va variando. Estos son algunos ejemplos. Pregunte al camarero."
 		},
 		"desayunos": {
 			"name": "Desayunos",
 			"image": "desayunos.jpg",
-			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"]
+			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
+			"info": "Nuestros desayunos vienen acompañados de bizcocho casero"
 },
 		"tostadas": {
 			"name": "Tostadas",
@@ -44,8 +45,8 @@
 		},
 		"bebidas": {
 			"name": "Bebidas",
-			"image": "bebidas.jpg",
-			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "heineken", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
+			"image": "refrescos.jpg",
+			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "randler", "heineken", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
 			"info": "Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa."
 		},
 		"vinos": {
@@ -158,7 +159,7 @@
 			"price": 1.8,
 			"image": "calamares.jpg",
 			"filters": [],
-			"allergens": ["pescado", "gluten"],
+			"allergens": ["moluscos", "gluten"],
 			"description": "Deliciosos calamares fritos con guarnición de berenjenas o patatas"
 		},
 		"cazon": {
@@ -204,7 +205,7 @@
 		"queso": {
 			"name": "Queso manchego",
 			"price": 1.8,
-			"missing": "jamon-queso.jpg",
+			"iamge": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
 			"description": "Nuestro queso manchego acompañado por un poco de pan"
@@ -246,8 +247,56 @@
 			"price": 1.8,
 			"image": "cazuela.jpg",
 			"filters": [],
-			"allergens": ["pescado", "gluten"],
+			"allergens": ["moluscos", "gluten"],
 			"description": "Cazuela de fideos con marisco acompañada por un poco de pan"
+		},
+		"pescado": {
+			"name": "Pescaíto frito",
+			"price": 1.8,
+			"missing": "cazuela.jpg",
+			"filters": [],
+			"allergens": ["pescado", "gluten"],
+			"description": ""
+		},
+		"cocido": {
+			"name": "Cocido",
+			"price": 1.8,
+			"missing": "cazuela.jpg",
+			"filters": [],
+			"allergens": ["apio"],
+			"description": "Casero"
+		},
+		"alubias": {
+			"name": "Alubias con almejas",
+			"price": 1.8,
+			"missing": "cazuela.jpg",
+			"filters": [],
+			"allergens": ["moluscos"],
+			"description": ""
+		},
+		"paella": {
+			"name": "Paella",
+			"price": 1.8,
+			"missing": "cazuela.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": "Casera"
+		},
+		"lentejas": {
+			"name": "Lentejas estofadas con chorizo",
+			"price": 1.8,
+			"missing": "cazuela.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Caseras"
+		},
+		"migas": {
+			"name": "Migas",
+			"price": 1.8,
+			"missing": "cazuela.jpg",
+			"filters": [],
+			"allergens": ["gluten"],
+			"description": "Caseras"
 		},
 		"aceite": {
 			"name": "Tostada de aceite",
@@ -280,7 +329,7 @@
 			"name": "Tostada de mantequilla",
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
-			"missing": "tomate.jpeg",
+			"image": "mantequilla.jpeg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "lacteos"],
 			"description": ""
@@ -307,7 +356,7 @@
 			"name": "Tostada de jamón york",
 			"prices": [1.10, 2],
 			"pricesNames": ["Media", "Entera"],
-			"missing": "tomate.jpeg",
+			"image": "york.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
 			"description": ""
@@ -316,19 +365,28 @@
 			"name": "Tostada de jamón serrano",
 			"prices": [1.10, 2.00],
 			"pricesNames": ["Media", "Entera"],
-			"missing": "tomate.jpeg",
+			"image": "serrano.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
+			"description": ""
+		},
+		"atun": {
+			"name": "Tostada de atún",
+			"prices": [1.10, 2],
+			"pricesNames": ["Media", "Entera"],
+			"missing": "tomate.jpeg",
+			"filters": [],
+			"allergens": ["gluten", "pescado"],
 			"description": ""
 		},
 		"ingrediente": {
 			"name": "Ingrediente extra",
 			"prices": [0.30, 0.50],
 			"pricesNames": ["Media", "Entera"],
-			"image": "ingrediente.jpeg",
-			"filters": ["vegetarian", "vegan"],
+			"missing": "serrano.jpg",
+			"filters": ["vegetarian"],
 			"allergens": [],
-			"description": "Añade el ingrediente extra que quieras"
+			"description": "Añade el ingrediente extra que quieras. Como queso roquefort, por ejemplo."
 		},
 		"queso-bocata": {
 			"name": "Bocadillo de queso con tomate",
@@ -351,7 +409,7 @@
 			"price": 4.0,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
-			"allergens": ["pescado", "lacteos", "gluten"],
+			"allergens": ["moluscos", "lacteos", "gluten"],
 			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
 		},
 		"lomo-bocata": {
@@ -398,19 +456,19 @@
 			"name": "Queso manchego",
 			"prices":  [5.0, 9.0],
 			"pricesNames": ["Media", "Entera"],
-			"image": "queso-racion.jpg",
+			"missing": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "Nuestro queso manchego (aprox. 120 gr.) acompañado por un poco de pan."
+			"description": "Aproximadamente 120 gr."
 		},
 		"jamon-racion": {
 			"name": "Jamón serrano",
 			"prices":  [5.0, 9.0],
 			"pricesNames": ["Media", "Entera"],
-			"missing": "queso-racion.jpg",
+			"missing": "jamon-queso.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": "Delicioso jamón serrano acompañado por un poco de pan"
+			"description": ""
 		},
 		"berenjenas-racion": {
 			"name": "Berenjenas fritas con miel",
@@ -436,7 +494,7 @@
 			"pricesNames": ["Media", "Entera"],
 			"image": "calamares-racion.jpg",
 			"filters": [],
-			"allergens": ["gluten", "pescado"],
+			"allergens": ["gluten", "moluscos"],
 			"description": ""
 		},
 		"cazon-racion": {
@@ -467,10 +525,10 @@
 		"plato-dia": {
 			"name": "Plato del día",
 			"price":  3.5,
-			"missing": "calamares-racion.jpg",
-			"filters": ["vegetarian", "vegan"],
+			"missing": "cazuela.jpg",
+			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
-			"description": "De lunes a sábado"
+			"description": "Lunes: cocido. Martes: cazuela. Miércoles: alubias con almejas. Jueves: paella. Viernes: lentejas estofadas con chorizo. Sábado: migas."
 		},
 		"plato-combinado": {
 			"name": "Plato combinado",
@@ -585,7 +643,7 @@
 			"description": ""
 		},
 		"cana": {
-			"name": "Caña (Alhambra)",
+			"name": "Caña (Alhambra Especial)",
 			"price": 2,
 			"image": "cana.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -593,7 +651,7 @@
 			"description": ""
 		},
 		"tubo": {
-			"name": "Tubo (Alhambra)",
+			"name": "Tubo (Alhambra Especial o Randler Especial)",
 			"price": 2.3,
 			"image": "tubo.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -609,12 +667,20 @@
 			"description": ""
 		},
 		"tercio": {
-			"name": "Tercio de Especial, Randler o Shandy",
+			"name": "Tercio de Especial",
 			"price": 2.4,
-			"image": "tercio.jpg",
+			"missing": "tercio.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": ""
+			"description": "De cruzcampo"
+		},
+		"randler": {
+			"name": "Randler o Shandy",
+			"price": 2.4,
+			"image": "radler.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "De cruzcampo"
 		},
 		"heineken": {
 			"name": "1925, Heineken o Voll-Damm",
@@ -623,6 +689,14 @@
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
+		},
+		"1906": {
+			"name": "1906",
+			"price": 2.8,
+			"image": "1906.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": "Reserva especial"
 		},
 		"roja": {
 			"name": "Alhambra Reserva Roja",
@@ -635,7 +709,7 @@
 		"quinto-00": {
 			"name": "Quinto 00",
 			"price": 2.2,
-			"image": "quinto-00.png",
+			"image": "freedamm.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": "Para disfrutar con todo el sabor sin alcohol"
@@ -643,7 +717,7 @@
 		"tercio-00": {
 			"name": "Tercio 00",
 			"price": 2.4,
-			"image": "tercio-00.jpg",
+			"image": "freedamm.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": "Para disfrutar con todo el sabor sin alcohol"
@@ -709,7 +783,7 @@
 			"name": "Vino Frizzante",
 			"prices": [13, 2.6],
 			"pricesNames": ["Botella", "Copa"],
-			"image": "vino-frizzante.jpeg",
+			"image": "vino-frizzante.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
