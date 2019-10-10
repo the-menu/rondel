@@ -672,7 +672,7 @@
 			"missing": "tercio.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "De cruzcampo"
+			"description": "De Cruzcampo"
 		},
 		"randler": {
 			"name": "Randler o Shandy",
@@ -680,7 +680,7 @@
 			"image": "radler.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "De cruzcampo"
+			"description": "De Cruzcampo"
 		},
 		"heineken": {
 			"name": "1925, Heineken o Voll-Damm",
