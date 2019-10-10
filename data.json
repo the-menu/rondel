@@ -279,7 +279,7 @@
 			"price": 1.8,
 			"image": "paella.jpeg",
 			"filters": [],
-			"allergens": ["gluten"],
+			"allergens": ["moluscos", "gluten"],
 			"description": "Casera"
 		},
 		"lentejas": {
