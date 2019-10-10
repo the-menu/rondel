@@ -525,7 +525,7 @@
 		"plato-dia": {
 			"name": "Plato del día",
 			"price":  3.5,
-			"missing": "plato-dia.jpeg",
+			"image": "plato-dia.jpeg",
 			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
 			"description": "Lunes: cocido. Martes: cazuela. Miércoles: alubias con almejas. Jueves: paella. Viernes: lentejas estofadas con chorizo. Sábado: migas."
