@@ -205,7 +205,7 @@
 		"queso": {
 			"name": "Queso manchego",
 			"price": 1.8,
-			"iamge": "queso.jpg",
+			"image": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
 			"description": "Nuestro queso manchego acompañado por un poco de pan"
@@ -253,7 +253,7 @@
 		"pescado": {
 			"name": "Pescaíto frito",
 			"price": 1.8,
-			"missing": "cazuela.jpg",
+			"missing": "cazon.jpg",
 			"filters": [],
 			"allergens": ["pescado", "gluten"],
 			"description": ""
@@ -261,7 +261,7 @@
 		"cocido": {
 			"name": "Cocido",
 			"price": 1.8,
-			"missing": "cazuela.jpg",
+			"missing": "paella.jpeg",
 			"filters": [],
 			"allergens": ["apio"],
 			"description": "Casero"
@@ -269,7 +269,7 @@
 		"alubias": {
 			"name": "Alubias con almejas",
 			"price": 1.8,
-			"missing": "cazuela.jpg",
+			"missing": "paella.jpeg",
 			"filters": [],
 			"allergens": ["moluscos"],
 			"description": ""
@@ -277,7 +277,7 @@
 		"paella": {
 			"name": "Paella",
 			"price": 1.8,
-			"missing": "cazuela.jpg",
+			"image": "paella.jpeg",
 			"filters": [],
 			"allergens": ["gluten"],
 			"description": "Casera"
@@ -285,7 +285,7 @@
 		"lentejas": {
 			"name": "Lentejas estofadas con chorizo",
 			"price": 1.8,
-			"missing": "cazuela.jpg",
+			"missing": "paella.jpeg",
 			"filters": [],
 			"allergens": [],
 			"description": "Caseras"
@@ -293,7 +293,7 @@
 		"migas": {
 			"name": "Migas",
 			"price": 1.8,
-			"missing": "cazuela.jpg",
+			"missing": "paella.jpeg",
 			"filters": [],
 			"allergens": ["gluten"],
 			"description": "Caseras"
@@ -525,7 +525,7 @@
 		"plato-dia": {
 			"name": "Plato del día",
 			"price":  3.5,
-			"missing": "cazuela.jpg",
+			"missing": "paella.jpeg",
 			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
 			"description": "Lunes: cocido. Martes: cazuela. Miércoles: alubias con almejas. Jueves: paella. Viernes: lentejas estofadas con chorizo. Sábado: migas."
