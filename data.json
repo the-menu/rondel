@@ -541,7 +541,7 @@
 		"cafe": {
 			"name": "Café",
 			"price": 1.2,
-			"image": "cafe.png",
+			"image": "cafe.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
 			"description": "Sólo, con leche o cortado"
