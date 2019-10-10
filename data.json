@@ -143,7 +143,7 @@
 			"image": "huevo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
-			"description": "Tradicional plato de huevo con jamón"
+			"description": ""
 		},
 		"pinchitos": {
 			"name": "Pinchitos morunos",
@@ -256,7 +256,7 @@
 			"missing": "tomate.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["gluten"],
-			"description": "!!!"
+			"description": "Con aceite de oliva"
 		},
 		"tomate": {
 			"name": "Tostada de tomate",
@@ -265,7 +265,7 @@
 			"image": "tomate.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["gluten"],
-			"description": "!!!"
+			"description": "Con tomate natural triturado"
 		},
 		"pate": {
 			"name": "Tostada de paté",
@@ -274,7 +274,7 @@
 			"missing": "tomate.jpeg",
 			"filters": [],
 			"allergens": ["gluten", "huevos", "lacteos"],
-			"description": "!!!"
+			"description": ""
 		},
 		"mantequilla": {
 			"name": "Tostada de mantequilla",
@@ -283,7 +283,7 @@
 			"missing": "tomate.jpeg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "lacteos"],
-			"description": "!!!"
+			"description": ""
 		},
 		"mixta": {
 			"name": "Tostada mixta",
@@ -292,7 +292,7 @@
 			"missing": "tomate.jpeg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "lacteos"],
-			"description": "Mixta de mantequilla y mermelada"
+			"description": "De mantequilla y mermelada"
 		},
 		"sobrasada": {
 			"name": "Tostada de sobrasada",
@@ -301,7 +301,7 @@
 			"missing": "tomate.jpeg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos"],
-			"description": "!!!"
+			"description": ""
 		},
 		"york": {
 			"name": "Tostada de jamón york",
@@ -310,7 +310,7 @@
 			"missing": "tomate.jpeg",
 			"filters": [],
 			"allergens": ["gluten"],
-			"description": "!!!"
+			"description": ""
 		},
 		"serrano": {
 			"name": "Tostada de jamón serrano",
@@ -319,7 +319,7 @@
 			"missing": "tomate.jpeg",
 			"filters": [],
 			"allergens": ["gluten"],
-			"description": "!!!"
+			"description": ""
 		},
 		"ingrediente": {
 			"name": "Ingrediente extra",
@@ -419,7 +419,7 @@
 			"missing": "berenjenas.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["gluten"],
-			"description": "(!!!)"
+			"description": "Ración de berenjenas fritas aliñadas con nuestra exquisita miel de caña"
 		},
 		"carne-racion": {
 			"name": "Carne en salsa",
@@ -428,7 +428,7 @@
 			"missing": "carne.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
-			"description": "(!!!)"
+			"description": "Nuestra famosa carne en salsa con patatas fritas"
 		},
 		"calamares-racion": {
 			"name": "Calamares fritos o Rejos",
@@ -437,7 +437,7 @@
 			"image": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten", "pescado"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"cazon-racion": {
 			"name": "Cazón adobado",
@@ -446,7 +446,7 @@
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten", "pescado"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"tomate-racion": {
 			"name": "Tomate aliñado",
@@ -454,7 +454,7 @@
 			"missing": "calamares-racion.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"ensalada": {
 			"name": "Ensalada de la casa",
@@ -494,7 +494,7 @@
 			"image": "infusion.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad"
 		},
 		"cafe-bombon": {
 			"name": "Café bombón",
@@ -502,7 +502,7 @@
 			"image": "cafe-bombon.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "(!!!)"
+			"description": "Café con leche condensada"
 		},
 		"carajillo": {
 			"name": "Carajillo",
@@ -510,7 +510,7 @@
 			"image": "carajillo.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Combinación de café con alguno de nuestros alcoholes. Pregunte por nuestra variedad."
 		},
 		"carajillo-baileys": {
 			"name": "Carajillo de Baileys",
@@ -518,7 +518,7 @@
 			"image": "carajillo-baileys.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "(!!!)"
+			"description": "Combinación de nuestro café con baileys"
 		},
 		"cola-cao": {
 			"name": "Cola Cao",
@@ -526,7 +526,7 @@
 			"image": "cola-cao.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "(!!!)"
+			"description": "El cola-cao original tanto para los niños como para los que no son tan niños"
 		},
 		"batido": {
 			"name": "Batido de chocolate",
@@ -534,7 +534,7 @@
 			"image": "batido.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "(!!!)"
+			"description": "De Puleva"
 		},
 		"zumo-natural": {
 			"name": "Zumo de naranja natural",
@@ -550,7 +550,7 @@
 			"image": "zumos.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad"
 		},
 		"refrescos": {
 			"name": "Refrescos",
@@ -558,7 +558,7 @@
 			"image": "refrescos.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad"
 		},
 		"vino-sin": {
 			"name": "Vino sin alcohol",
@@ -566,7 +566,7 @@
 			"image": "vino-sin.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"tinto-verano": {
 			"name": "Tinto de verano",
@@ -574,7 +574,7 @@
 			"image": "tinto-verano.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": "Fresco vino tinto con gaseosa o gaseosa de limón"
 		},
 		"nestea-aquarius": {
 			"name": "Nestea o Aquarius",
@@ -582,7 +582,7 @@
 			"image": "nestea-aquarius.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"cana": {
 			"name": "Caña (Alhambra)",
@@ -590,7 +590,7 @@
 			"image": "cana.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"tubo": {
 			"name": "Tubo (Alhambra)",
@@ -598,7 +598,7 @@
 			"image": "tubo.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"quinto": {
 			"name": "Quinto (Alhambra Especial)",
@@ -606,7 +606,7 @@
 			"image": "quinto.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"tercio": {
 			"name": "Tercio de Especial, Randler o Shandy",
@@ -614,7 +614,7 @@
 			"image": "tercio.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"heineken": {
 			"name": "1925, Heineken o Voll-Damm",
@@ -622,7 +622,7 @@
 			"image": "heineken.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"roja": {
 			"name": "Alhambra Reserva Roja",
@@ -630,7 +630,7 @@
 			"image": "roja.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"quinto-00": {
 			"name": "Quinto 00",
@@ -638,7 +638,7 @@
 			"image": "quinto-00.png",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": "Para disfrutar con todo el sabor sin alcohol"
 		},
 		"tercio-00": {
 			"name": "Tercio 00",
@@ -646,7 +646,7 @@
 			"image": "tercio-00.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": "Para disfrutar con todo el sabor sin alcohol"
 		},
 		"combinado": {
 			"name": "Combinado",
@@ -654,7 +654,7 @@
 			"image": "combinado.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad de alcoholes"
 		},
 		"combinado-especial": {
 			"name": "Combinado especial",
@@ -662,7 +662,7 @@
 			"image": "combinado-especial.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad de alcoholes de gama superior"
 		},
 		"chupito": {
 			"name": "Chupito",
@@ -670,7 +670,7 @@
 			"image": "chupito.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad"
 		},
 		"copa-licor": {
 			"name": "Copa de Licor",
@@ -678,7 +678,7 @@
 			"image": "copa-licor.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad"
 		},
 		"vaso-licor": {
 			"name": "Vaso de Licor",
@@ -686,7 +686,7 @@
 			"image": "vaso-licor.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "(!!!)"
+			"description": "Pregunte por nuestra variedad"
 		},
 		"vino-terreno": {
 			"name": "Vino del terreno",
@@ -703,7 +703,7 @@
 			"image": "vino-blanco.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"vino-frizzante": {
 			"name": "Vino Frizzante",
@@ -712,7 +712,7 @@
 			"image": "vino-frizzante.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"vino-semi-dulce": {
 			"name": "Vino blanco semi-dulce",
@@ -721,7 +721,7 @@
 			"image": "vino-semi-dulce.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"rioja": {
 			"name": "Rioja (crianza)",
@@ -730,7 +730,7 @@
 			"image": "rioja.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"ribera": {
 			"name": "Ribera del Duero (crianza)",
@@ -739,7 +739,7 @@
 			"image": "ribera.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		},
 		"vino-casa": {
 			"name": "Vino de la Casa",
@@ -748,7 +748,7 @@
 			"image": "vino-casa.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "(!!!)"
+			"description": ""
 		}
 	},
 	"filters": [
