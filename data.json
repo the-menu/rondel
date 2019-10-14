@@ -643,7 +643,7 @@
 			"description": ""
 		},
 		"cana": {
-			"name": "Caña (Alhambra Especial)",
+			"name": "Caña (Alhambra Especial o Randler Especial)",
 			"price": 2,
 			"image": "cana.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -669,10 +669,10 @@
 		"tercio": {
 			"name": "Tercio de Especial",
 			"price": 2.4,
-			"image": "tercio.png",
+			"image": "tercio.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "De Cruzcampo"
+			"description": ""
 		},
 		"randler": {
 			"name": "Randler o Shandy",
