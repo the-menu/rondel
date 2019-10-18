@@ -3,6 +3,8 @@
 		"name": "El Rondel",
 		"address": "Av. de Barcelona, 8, 18006 Granada",
 		"image": "rondel.jpg",
+		"languages": ["es"],
+		"defaultLanguage": "es",
 		"hours": "Lunes-Viernes: de 9:30 a 16:00\ny de 20:00 a 23:00\nSábados: de 12:30 a 16:00\ny de 20:00 a 23:00\nDomingos: cerrado",
 		"hoursDetails": "Cocina abierta desde las 12:30 hasta la hora de cierre"
 	},
