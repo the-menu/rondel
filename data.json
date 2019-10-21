@@ -546,7 +546,7 @@
 			"image": "cafe.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": ["Sólo, con leche o cortado.", "Black, espresso or latte."]
+			"description": ["Sólo, con leche o cortado", "Black, espresso or latte"]
 		},
 		"infusion": {
 			"name": ["Infusión", "Infusion"],
@@ -594,7 +594,7 @@
 			"image": "batido.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": ["De Puleva.", "Puleva milkshake."]
+			"description": ["De Puleva", "Puleva milkshake"]
 		},
 		"zumo-natural": {
 			"name": ["Zumo de naranja natural", "Natural orange juice"],
@@ -602,7 +602,7 @@
 			"image": "zumo-natural.png",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": ["Recién exprimido.", "Freshly squeezed."]
+			"description": ["Recién exprimido", "Freshly squeezed"]
 		},
 		"zumos": {
 			"name": ["Zumos", "Juice"],
