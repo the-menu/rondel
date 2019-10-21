@@ -3,118 +3,118 @@
 		"name": "El Rondel",
 		"address": "Av. de Barcelona, 8, 18006 Granada",
 		"image": "rondel.jpg",
-		"languages": ["es"],
-		"defaultLanguage": "es",
-		"hours": "Lunes-Viernes: de 9:30 a 16:00\ny de 20:00 a 23:00\nSábados: de 12:30 a 16:00\ny de 20:00 a 23:00\nDomingos: cerrado",
-		"hoursDetails": "Cocina abierta desde las 12:30 hasta la hora de cierre"
+		"languages": ["es", "en"],
+		"defaultLanguage": "en",
+		"hours": ["Lunes-Viernes: de 9:30 a 16:00\ny de 20:00 a 23:00\nSábados: de 12:30 a 16:00\ny de 20:00 a 23:00\nDomingos: cerrado.", "Monday-Friday: from 9:30 to 16:00\nand from 20:00 to 23:00\nSaturday: from 12:30 to 16:00\nand from 20:00 to 23:00\nSunday: closed."],
+		"hoursDetails": ["Cocina abierta desde las 12:30 hasta la hora de cierre.", "Kitchen open from 12:30 until closing time."]
 	},
 	"sections": {
 		"tapas": {
 			"name": "Tapas",
 			"image": "beicon.jpg",
 			"items": ["beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
-			"info": "Todas nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa."
+			"info": ["Todas nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "All our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
 		},
 		"tapas-dia": {
-			"name": "Tapas del día",
+			"name": ["Tapas del día", "Tapas of the day"], 
 			"image": "paella.jpg",
 			"items": ["fajita", "salmorejo", "habas-huevo", "pescado", "cocido", "cazuela", "alubias", "paella", "lentejas", "migas"],
-			"info": "Nuestra selección de tapas del día va variando. Estos son algunos ejemplos. Pregunte al camarero."
+			"info": ["Nuestra selección de tapas del día va variando. Estos son algunos ejemplos. Pregunte al camarero.", "Our selection of tapas changes from day to day. Here are some examples. Ask our waiter."]
 		},
 		"desayunos": {
-			"name": "Desayunos",
+			"name":["Desayunos", "Breakfasts"],
 			"image": "cola-cao.jpg",
 			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
-			"info": "Nuestros desayunos vienen acompañados de bizcocho casero"
-},
+			"info": ["Nuestros desayunos vienen acompañados de bizcocho casero.", "Our collection of breakfasts are served with a home made sponge cake."]
+		},
 		"tostadas": {
-			"name": "Tostadas",
+			"name": ["Tostadas", "Toasts"],
 			"image": "tomate.jpeg",
 			"items": ["aceite", "tomate", "pate", "mantequilla", "mixta", "sobrasada",  "york", "serrano", "ingrediente", "sandwich-mixto"],
 			"hasSizes": ["Elija el tamaño", "Media", "Entera"],
-			"info": "De chapata integral"
+			"info": ["De chapata integral", "Wholemeal ciabatta bread"]
 		},
 		"bocadillos": {
-			"name": "Bocadillos",
+			"name": ["Bocadillos", "Sandwiches"],
 			"image": "carne-bocata-grande.jpg",
 			"items": ["queso-bocata", "jamon-bocata-grande", "calamares-bocata", "lomo-bocata", "hamburguesa-completa", "hamburguesa-mixta", "beicon-bocata", "carne-bocata-grande"]
 		},
 		"raciones": {
-			"name": "Raciones",
+			"name": ["Raciones", "Platters"],
 			"image": "plato-dia.jpeg",
 			"items": ["queso-racion", "jamon-racion", "berenjenas-racion", "carne-racion", "calamares-racion", "cazon-racion", "tomate-racion", "ensalada", "plato-dia", "plato-combinado"],
-			"hasSizes": ["Elija el tamaño", "Media", "Entera"]
+			"hasSizes": [["Elija el tamaño", "Media", "Entera"], ["Choose the size", "Half", "Platter"]]
 		},
 		"bebidas": {
-			"name": "Bebidas",
+			"name": ["Bebidas", "Drinks"],
 			"image": "refrescos.jpg",
 			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "randler", "heineken", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
-			"info": "Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa."
+			"info": ["Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "All our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
 		},
 		"vinos": {
-			"name": "Vinos",
+			"name": ["Vinos", "Wine"],
 			"image": "vinos.jpg",
 			"items": ["vino-terreno", "vino-blanco", "vino-frizzante", "vino-semi-dulce", "rioja", "ribera", "vino-casa"],
-			"hasSizes": ["Elija el tamaño", "Botella", "Copa"],
-			"info": "Las copas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Las botellas vienen acompañadas de 5 <a href=\"#/section/tapas\">tapas</a>. Máximo dos variedades por mesa."
+			"hasSizes": [["Elija el tamaño", "Botella", "Copa"], ["Choose the size", "Bottle", "Glass"]],
+			"info": ["Las copas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Las botellas vienen acompañadas de 5 <a href=\"#/section/tapas\">tapas</a>. Máximo dos variedades por mesa.", "Our wine glasses are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Our bottles are served with 5 <a href=\"#/section/tapas\">tapas</a>. Two varieties max per table."]
 		}
 	},
 	"items": {
 		"beicon": {
-			"name": "Bocata de beicon",
+			"name": ["Bocata de beicon", "Bacon Sandwich"],
 			"price": 1.8,
 			"image": "beicon.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": "Con queso, huevo, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con queso, huevo, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese, egg, tomato and mayonnaise. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 "lomo": {
-			"name": "Bocata de lomo",
+			"name": ["Bocata de lomo", "Pork loin sandwich"],
 			"price": 1.8,
 			"missing": "beicon.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten", "huevos"],
-			"description": "Con queso, lechuga, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con queso, lechuga, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese, lettuce, tomato and mayonnaise. Served with with fries to dip in our magic sauce (contains egg)."]
 		},
 		"carne-bocata": {
-			"name": "Bocata de carne en salsa",
+			"name": ["Bocata de carne en salsa", "Saucy meat sandwich"],
 			"price": 1.8,
 			"image": "carne-bocata.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
-			"description": "Nuestra famosa carne en salsa en bocata acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+			"description": ["Nuestra famosa carne en salsa en bocata acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)", "Our famous saucy meat in a sandwich served with fries to dip in our magic sauce (contains egg)"]
 		},
 		"burguer-pollo": {
-			"name": "Burguer de pollo empanado",
+			"name": ["Burguer de pollo empanado", "Fried chicken burguer"],
 			"price": 1.8,
 			"image": "burguer-pollo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
-			"description": "Con queso, lechuga, tomate y kétchup. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con queso, lechuga, tomate y kétchup. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese, lettuce, tomato and ketchup. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"burguer-plancha": {
-			"name": "Burguer plancha",
+			"name":["Burguer plancha", "Grilled Burger"],
 			"price": 1.8,
 			"image": "burguer-plancha.jpg",
 			"filters": [],
 			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
-			"description": "Con lechuga, tomate, kétchup y beicon. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con lechuga, tomate, kétchup y beicon. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With lettuce, tomato, ketchup and bacon. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"jamon-bocata": {
-			"name": "Bocata de jamón serrano",
+			"name": ["Bocata de jamón serrano", "Cured ham sandwich"],
 			"price": 1.8,
 			"missing": "beicon.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten"],
-			"description": "Con queso y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con queso y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese and tomato. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"tortilla": {
-			"name": "Bocata de tortilla francesa",
+			"name": ["Bocata de tortilla francesa", "Omelet sandwich"],
 			"price": 1.8,
 			"image": "tortilla.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["huevos", "gluten"],
-			"description": "Con tomate, lechuga y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con tomate, lechuga y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With tomato, lettuce and mayonnaise. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"flamenquin": {
 			"name": "Flamenquín",
@@ -122,103 +122,103 @@
 			"image": "flamenquin.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos", "huevos"],
-			"description": "De lomo, jamón serrano y queso. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["De lomo, jamón serrano y queso. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Pork loin, cured ham and cheese. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"finger": {
-			"name": "Finger de pollo",
+			"name": ["Finger de pollo", "Chicken tenders"],
 			"price": 1.8,
 			"image": "finger.jpg",
 			"filters": [],
 			"allergens": ["gluten", "huevos"],
-			"description": "A las finas hierbas con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)"
+			"description": ["A las finas hierbas con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)", "With culinary herbs and served with fries to dip in our magic sauce (contains egg)"]
 		},
 		"carne": {
-			"name": "Carne en salsa",
+			"name": ["Carne en salsa", "Saucy meat"],
 			"price": 1.8,
 			"image": "carne.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
-			"description": "Nuestra famosa carne en salsa en plato con patatas fritas y pan"
+			"description": ["Nuestra famosa carne en salsa en plato con patatas fritas y pan", "Our famous meat in sauce served with fries and bread to dip"]
 		},
 		"huevo": {
-			"name": "Huevo con jamón y patatas",
+			"name": ["Huevo con jamón y patatas", "Fried egg with ham and cheese"],
 			"price": 1.8,
 			"image": "huevo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
-			"description": ""
+			"description": ["Huevo frito con nuestro mejor jamón y patatas fritas para mojar", "Fried egg with our best cured ham and fries to dip"]
 		},
 		"pinchitos": {
-			"name": "Pinchitos morunos",
+			"name": ["Pinchitos morunos", "Skewered pork"],
 			"price": 1.8,
 			"image": "pinchitos.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": "El clásico pinchito moruno acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)"
+			"description": ["El clásico pinchito moruno acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)", "Our classic skewered pork served with bread and fries to dip in our magic sauce (contains egg)"]
 		},
 		"calamares": {
-			"name": "Calamares fritos",
+			"name":["Calamares fritos", "Fried squid"],
 			"price": 1.8,
 			"image": "calamares.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
-			"description": "Deliciosos calamares fritos con guarnición de berenjenas o patatas"
+			"description": ["Deliciosos calamares fritos con guarnición de berenjenas o patatas", "Delicious fried squid served with fried aubergines or fries"]
 		},
 		"cazon": {
-			"name": "Cazón adobado",
+			"name": ["Cazón adobado", "Marinated dogfish"],
 			"price": 1.8,
 			"image": "cazon.jpg",
 			"filters": [],
 			"allergens": ["pescado", "gluten"],
-			"description": "Con guarnición de berenjenas o patatas"
+			"description": ["Con guarnición de berenjenas o patatas", "Served with fried aubergines or fries"]
 		},
 		"sandwich": {
-			"name": "Sándwich \"EL RONDEL\"",
+			"name": ["Sándwich \"EL RONDEL\"", "\"EL RONDEL\" sandwich"],
 			"price": 1.8,
 			"image": "sandwich.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos", "huevos"],
-			"description": "Sandwich de tres pisos con York, beicon, huevo, tomate, lechuga y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Sandwich de tres pisos con York, beicon, huevo, tomate, lechuga y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Triple decker sandwich with ham, bacon, egg, tomato, lettuce and mayonnaise. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"sandwich-vegetal": {
-			"name": "Sándwich vegetal",
+			"name": ["Sándwich vegetal", "Vegetable sandwich"],
 			"price": 1.8,
 			"missing": "sandwich.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "huevos"],
-			"description": "Con tomate, lechuga, maíz, espárragos y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Con tomate, lechuga, maíz, espárragos y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With tomato, lettuce, corn, asparagus and mayonnaise. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"sandwich-mixto": {
-			"name": "Sándwich mixto",
+			"name": ["Sándwich mixto", "Ham and cheese sandwich"],
 			"price": 1.8,
 			"missing": "sandwich.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos"],
-			"description": "De york y queso con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)"
+			"description": ["De york y queso con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)", "Ham and cheese sandwich served with fries to dip in our magic sauce (contains egg)"]
 		},
 		"berenjenas": {
-			"name": "Berenjenas con miel",
+			"name": ["Berenjenas con miel", "Fried aubergines with honey"],
 			"price": 1.8,
 			"image": "berenjenas.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten"],
-			"description": "Con miel de caña"
+			"description": ["Con miel de caña", "Seasoned with cane honey"]
 		},
 		"queso": {
-			"name": "Queso manchego",
+			"name": ["Queso manchego", "Manchego cheese"],
 			"price": 1.8,
 			"image": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "Nuestro queso manchego acompañado por un poco de pan"
+			"description": ["Nuestro queso manchego acompañado por un poco de pan", "Our best manchego cheese served with bread"]
 		},
 		"jamon": {
-			"name": "Jamón serrano",
+			"name": ["Jamón serrano", "Cured ham"],
 			"price": 1.8,
 			"missing": "jamon-queso.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": "Delicioso jamón serrano acompañado por un poco de pan"
+			"description": ["Delicioso jamón serrano acompañado por un poco de pan", "Delicious cured ham served with bread"]
 		},
 		"salmorejo": {
 			"name": "Salmorejo",
@@ -226,7 +226,7 @@
 			"image": "salmorejo.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "huevos"],
-			"description": "Crema de tomate típico de la zona de Andalucía"
+			"description": ["Crema de tomate típico de la zona de Andalucía", "Tomato Cream typical from the region of Andalusia"]
 		},
 		"fajita": {
 			"name": "Fajita",
@@ -234,47 +234,47 @@
 			"image": "fajita.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
-			"description": "Fajita de carne picada con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)"
+			"description": ["Fajita de carne picada con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)", "Minced meat fajita served with fries to dip in our magic sauce (contains egg)"]
 		},
 		"habas-huevo": {
-			"name": "Habas con huevo frito",
+			"name": ["Habas con huevo frito", "Broad beans with fried egg"],
 			"price": 1.8,
 			"image": "habas-huevo.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["huevos"],
-			"description": "Clásico plato de habas con huevo acompañadas por un poco de pan"
+			"description": ["Clásico plato de habas con huevo acompañadas por un poco de pan", "Our classic broad beans and fried egg served with bread"]
 		},
 		"cazuela": {
-			"name": "Cazuela",
+			"name": ["Cazuela", "Cazuela (Shellfish stew)"],
 			"price": 1.8,
 			"image": "cazuela.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
-			"description": "Cazuela de fideos con marisco acompañada por un poco de pan. Todos los martes."
+			"description": ["Cazuela de fideos con marisco acompañada por un poco de pan. Todos los martes.", "Noodles in shellfish stew served with bread. Every Tuesday."]
 		},
 		"pescado": {
-			"name": "Pescaíto frito",
+			"name": ["Pescaíto frito", "Fried fish"],
 			"price": 1.8,
 			"missing": "cazon.jpg",
 			"filters": [],
 			"allergens": ["pescado", "gluten"],
-			"description": ""
+			"description": ["Delicioso pescado frito", "Delicious fried fish"]
 		},
 		"cocido": {
-			"name": "Cocido",
+			"name": ["Cocido", "Cocido (Spanish stew)"],
 			"price": 1.8,
 			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": ["apio"],
-			"description": "Todos los lunes"
+			"description": ["Todos los lunes", "Every Monday"]
 		},
 		"alubias": {
-			"name": "Alubias con almejas",
+			"name": ["Alubias con almejas", "Beans and clams"],
 			"price": 1.8,
 			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
-			"description": "Todos los miércoles"
+			"description": ["Todos los miércoles", "Every Wednesday"]
 		},
 		"paella": {
 			"name": "Paella",
@@ -282,44 +282,44 @@
 			"image": "paella.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
-			"description": "Todos los jueves"
+			"description": ["Todos los jueves", "Every Thursday"]
 		},
 		"lentejas": {
-			"name": "Lentejas estofadas con chorizo",
+			"name": ["Lentejas estofadas con chorizo", "Stewed lentils with chorizo"],
 			"price": 1.8,
 			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": "Todos los viernes"
+			"description": ["Todos los viernes", "Every Friday"]
 		},
 		"migas": {
-			"name": "Migas",
+			"name": ["Migas", "Migas (Bread crumbs)"],
 			"price": 1.8,
 			"missing": "paella.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
-			"description": "Todos los sábados"
+			"description": ["Todos los sábados", "Every Saturday"]
 		},
 		"aceite": {
-			"name": "Tostada de aceite",
+			"name": ["Tostada de aceite", "Oil toast"],
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["gluten"],
-			"description": "Con aceite de oliva"
+			"description": ["Con aceite de oliva", "With olive oil"]
 		},
 		"tomate": {
-			"name": "Tostada de tomate",
+			"name": ["Tostada de tomate", "Tomato toast"],
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
 			"image": "tomate.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["gluten"],
-			"description": "Con tomate natural triturado"
+			"description": ["Con tomate natural triturado", "With mashed tomato"]
 		},
 		"pate": {
-			"name": "Tostada de paté",
+			"name": ["Tostada de paté", "Paté toast"],
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
@@ -328,7 +328,7 @@
 			"description": ""
 		},
 		"mantequilla": {
-			"name": "Tostada de mantequilla",
+			"name": ["Tostada de mantequilla", "Butter toast"],
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
 			"image": "mantequilla.jpg",
@@ -337,16 +337,16 @@
 			"description": ""
 		},
 		"mixta": {
-			"name": "Tostada mixta",
+			"name": ["Tostada mixta", "Butter and jam toast"],
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "mantequilla.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "lacteos"],
-			"description": "De mantequilla y mermelada"
+			"description": ["De mantequilla y mermelada", "Ask about our jams"]
 		},
 		"sobrasada": {
-			"name": "Tostada de sobrasada",
+			"name": ["Tostada de sobrasada", "Mallorcan sobrasada toast"],
 			"prices": [0.70, 1.20],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
@@ -355,7 +355,7 @@
 			"description": ""
 		},
 		"york": {
-			"name": "Tostada de jamón york",
+			"name": ["Tostada de jamón york", "Ham toast"],
 			"prices": [1.10, 2],
 			"pricesNames": ["Media", "Entera"],
 			"image": "york.jpg",
@@ -364,7 +364,7 @@
 			"description": ""
 		},
 		"serrano": {
-			"name": "Tostada de jamón serrano",
+			"name": ["Tostada de jamón serrano", "Cured ham toast"],
 			"prices": [1.10, 2.00],
 			"pricesNames": ["Media", "Entera"],
 			"image": "serrano.jpg",
@@ -373,7 +373,7 @@
 			"description": ""
 		},
 		"atun": {
-			"name": "Tostada de atún",
+			"name": ["Tostada de atún", "Tuna toast"],
 			"prices": [1.10, 2],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
@@ -382,134 +382,134 @@
 			"description": ""
 		},
 		"ingrediente": {
-			"name": "Ingrediente extra",
+			"name": ["Ingrediente extra", "Extra ingredient"],
 			"prices": [0.30, 0.50],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "serrano.jpg",
 			"filters": ["vegetarian"],
 			"allergens": [],
-			"description": "Añade el ingrediente extra que quieras. Como queso roquefort, por ejemplo."
+			"description": ["Añade el ingrediente extra que quieras. Como queso roquefort, por ejemplo.", "Add the extra ingredient you want. Like roquefort for example."]
 		},
 		"queso-bocata": {
-			"name": "Bocadillo de queso con tomate",
+			"name": ["Bocadillo de queso con tomate", "Cheese and tomato sandwich"],
 			"price": 4.0,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos", "gluten"],
-			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
-},
+			"description": ["Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)", "Served with fries to dip in our magic sauce (contains egg)"]
+		},
 		"jamon-bocata-grande": {
-			"name": "Bocadillo de jamón serrano con tomate",
+			"name": ["Bocadillo de jamón serrano con tomate", "Cured ham and tomato sandwich"],
 			"price": 4.0,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
-			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+			"description": ["Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)", "Served with fries to dip in our magic sauce (contains egg)"]
 		},
 		"calamares-bocata": {
-			"name": "Bocadillo de calamares fritos con mayonesa",
+			"name": ["Bocadillo de calamares fritos con mayonesa", "Fried squid and mayonnaise sandwich"],
 			"price": 4.0,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "lacteos", "gluten"],
-			"description": "Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)"
+			"description": ["Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)", "Served with fries to dip in our magic sauce (contains egg)"]
 		},
 		"lomo-bocata": {
-			"name": "Lomo completo",
+			"name": ["Lomo completo", "Pork loin sandwich"],
 			"price": 4.0,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": "Lomo, beicon, queso, huevo, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Lomo, beicon, queso, huevo, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Pork loin, bacon, cheese, egg, lettuce and tomato sandwich. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"hamburguesa-completa": {
-			"name": "Hamburguesa completa de pollo empanado",
+			"name": ["Hamburguesa completa de pollo empanado", "Fried chicken hamburger"],
 			"price": 4.0,
 			"missing": "burguer-pollo.jpg",
 			"filters": [],
 			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
-			"description": "2 hamburguesas de pollo, huevo, beicon, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["2 hamburguesas de pollo, huevo, beicon, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "2 decker fried chicken hamburger with egg, bacon, cheese, lettuce and tomato. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"hamburguesa-mixta": {
-			"name": "Hamburguesa casera mixta",
+			"name": ["Hamburguesa casera mixta", "Homemade hamburger"],
 			"price": 4.0,
 			"missing": "burguer-plancha.jpg",
 			"filters": [],
 			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
-			"description": "2 hamburguesas, huevo, beicon, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["2 hamburguesas, huevo, beicon, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "2 decker hamburger with egg, bacon, cheese, lettuce and tomato. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"beicon-bocata": {
-			"name": "Beicon completo",
+			"name": ["Beicon completo", "Bacon sandwich"],
 			"price": 4.0,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "huevo", "gluten"],
-			"description": "Beicon, huevo, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Beicon, huevo, queso, lechuga y tomate. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Bacon, egg, cheese, lettuce and tomato. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"carne-bocata-grande": {
-			"name": "Bocadillo de carne en salsa",
+			"name": ["Bocadillo de carne en salsa", "Saucy meat sandwich"],
 			"price": 4.0,
 			"image": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
-			"description": "Bocata de nuestra famosa carne en salsa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo)."
+			"description": ["Bocata de nuestra famosa carne en salsa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "Our famous saucy meat in a sandwich served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"queso-racion": {
-			"name": "Queso manchego",
+			"name": ["Queso manchego", "Manchego cheese"],
 			"prices":  [5.0, 9.0],
-			"pricesNames": ["Media", "Entera"],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "Aproximadamente 120 gr."
+			"description": ["Aproximadamente 120 gr.", "Approximately 120 gr."]
 		},
 		"jamon-racion": {
-			"name": "Jamón serrano",
+			"name": ["Jamón serrano", "Cured ham"],
 			"prices":  [5.0, 9.0],
-			"pricesNames": ["Media", "Entera"],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "jamon-queso.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": ""
+			"description": ["Ración media o entera de nuestro mejor jamón serrano", "Try our best cured ham typical from the region of Andalusia."]
 		},
 		"berenjenas-racion": {
-			"name": "Berenjenas fritas con miel",
+			"name": ["Berenjenas fritas con miel", "Fried aubergines with honey"],
 			"prices":  [3.5, 6.0],
-			"pricesNames": ["Media", "Entera"],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "berenjenas.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten"],
-			"description": "Ración de berenjenas fritas aliñadas con nuestra exquisita miel de caña"
+			"description": ""
 		},
 		"carne-racion": {
-			"name": "Carne en salsa",
+			"name": ["Carne en salsa", "Saucy meat"],
 			"prices":  [4.5, 8.0],
-			"pricesNames": ["Media", "Entera"],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "carne.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
-			"description": "Nuestra famosa carne en salsa con patatas fritas"
+			"description": ["Nuestra famosa carne en salsa con patatas fritas", "Our famous saucy meat with fries"]
 		},
 		"calamares-racion": {
-			"name": "Calamares fritos o Rejos",
+			"name": ["Calamares fritos o Rejos", "Fried squid"],
 			"prices":  [4.5, 8.0],
-			"pricesNames": ["Media", "Entera"],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"image": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten", "moluscos"],
 			"description": ""
 		},
 		"cazon-racion": {
-			"name": "Cazón adobado",
+			"name": ["Cazón adobado", "Marinated dogfish"],
 			"prices":  [4.5, 8.0],
-			"pricesNames": ["Media", "Entera"],
+			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["gluten", "pescado"],
 			"description": ""
 		},
 		"tomate-racion": {
-			"name": "Tomate aliñado",
+			"name": ["Tomate aliñado", "Seasoned tomato"],
 			"price":  3.5,
 			"missing": "calamares-racion.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -517,52 +517,52 @@
 			"description": ""
 		},
 		"ensalada": {
-			"name": "Ensalada de la casa",
+			"name": ["Ensalada de la casa", "Homemade salad"],
 			"price":  5.0,
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["pescado"],
-			"description": "Lechuga, tomate, atún, espárragos, maíz y aceitunas"
+			"description": ["Lechuga, tomate, atún, espárragos, maíz y aceitunas", "Lettuce, tomato, tuna, asparagus, corn and olives"]
 		},
 		"plato-dia": {
-			"name": "Plato del día",
+			"name": ["Plato del día", "Daily special"],
 			"price":  3.5,
 			"image": "plato-dia.jpeg",
 			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
-			"description": "Lunes: cocido. Martes: cazuela. Miércoles: alubias con almejas. Jueves: paella. Viernes: lentejas estofadas con chorizo. Sábado: migas."
+			"description": ["Lunes: cocido. Martes: cazuela. Miércoles: alubias con almejas. Jueves: paella. Viernes: lentejas estofadas con chorizo. Sábado: migas.", "Monday: cocido (Spanish stew). Tuesday: cazuela (shellfish stew). Wednesday: beans and Clams. Thursday: stewed lentils with chorizo. Saturday: migas (bread crumbs)."]
 		},
 		"plato-combinado": {
-			"name": "Plato combinado",
+			"name": ["Plato combinado", "Combination platter"],
 			"price":  4.0,
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
-			"description": "Huevo, patatas, lomo y pisto"
+			"description": ["Huevo, patatas, lomo y pisto", "Egg, fries, pork loin and vegetable ratatouille"]
 		},
 		"cafe": {
-			"name": "Café",
+			"name": ["Café", "Coffee"],
 			"price": 1.2,
 			"image": "cafe.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Sólo, con leche o cortado"
+			"description": ["Sólo, con leche o cortado.", "Black, espresso or latte."]
 		},
 		"infusion": {
-			"name": "Infusión",
+			"name": ["Infusión", "Infusion"],
 			"price": 1.2,
 			"image": "infusion.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad"
+			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
 		},
 		"cafe-bombon": {
-			"name": "Café bombón",
+			"name": ["Café bombón", "Condensed milk espresso"],
 			"price": 1.6,
 			"image": "cafe-bombon.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "Café con leche condensada"
+			"description": ["Café con leche condensada", ""]
 		},
 		"carajillo": {
 			"name": "Carajillo",
@@ -570,15 +570,15 @@
 			"image": "carajillo.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Combinación de café con alguno de nuestros alcoholes. Pregunte por nuestra variedad."
+			"description": ["Combinación de café con alguno de nuestros alcoholes. Pregunte por nuestra variedad.", "Combination of coffee and one of our alcohols. Ask about our variety."]
 		},
 		"carajillo-baileys": {
-			"name": "Carajillo de Baileys",
+			"name": ["Carajillo de Baileys", "Baileys Carajillo"],
 			"price": 2.2,
 			"image": "carajillo-baileys.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "Combinación de nuestro café con baileys"
+			"description": ["Combinación de nuestro café con Baileys", "Combination of our coffee and Baileys"]
 		},
 		"cola-cao": {
 			"name": "Cola Cao",
@@ -586,42 +586,42 @@
 			"image": "cola-cao.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "El cola-cao original tanto para los niños como para los que no son tan niños"
+			"description": ["El cola-cao original tanto para los niños como para los que no son tan niños.", "The famous brand of Cocoa powder that both kids and adults love."]
 		},
 		"batido": {
-			"name": "Batido de chocolate",
+			"name": ["Batido de chocolate", "Chocolate milkshake"],
 			"price": 1.8,
 			"image": "batido.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
-			"description": "De Puleva"
+			"description": ["De Puleva.", "Puleva milkshake."]
 		},
 		"zumo-natural": {
-			"name": "Zumo de naranja natural",
+			"name": ["Zumo de naranja natural", "Natural orange juice"],
 			"price": 2,
 			"image": "zumo-natural.png",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Recién exprimido"
+			"description": ["Recién exprimido.", "Freshly squeezed."]
 		},
 		"zumos": {
-			"name": "Zumos",
+			"name": ["Zumos", "Juice"],
 			"price": 1.4,
 			"image": "zumos.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad"
+			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
 		},
 		"refrescos": {
-			"name": "Refrescos",
+			"name": ["Refrescos", "Refreshments"],
 			"price": 2.3,
 			"image": "refrescos.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad"
+			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
 		},
 		"vino-sin": {
-			"name": "Vino sin alcohol",
+			"name": ["Vino sin alcohol", "Alcohol free wine"],
 			"price": 2.3,
 			"image": "vino-sin.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -629,15 +629,15 @@
 			"description": ""
 		},
 		"tinto-verano": {
-			"name": "Tinto de verano",
+			"name": ["Tinto de verano", "Summer punch"],
 			"price": 2.3,
 			"image": "tinto-verano.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "Fresco vino tinto con gaseosa o gaseosa de limón"
+			"description": ["Fresco vino tinto con gaseosa o gaseosa de limón", "Refreshing red wine with either soda or lemon soda"]
 		},
 		"nestea-aquarius": {
-			"name": "Nestea o Aquarius",
+			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
 			"price": 2.4,
 			"image": "nestea-aquarius.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -645,7 +645,7 @@
 			"description": ""
 		},
 		"cana": {
-			"name": "Caña (Alhambra Especial o Randler Especial)",
+			"name": ["Caña (Alhambra Especial o Randler Especial)", "Half pint (Special Alhambra or Special Randler)"],
 			"price": 2,
 			"image": "cana.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -653,7 +653,7 @@
 			"description": ""
 		},
 		"tubo": {
-			"name": "Tubo (Alhambra Especial o Randler Especial)",
+			"name": ["Tubo (Alhambra Especial o Randler Especial)", "Pint (Special Alhambra or Special Randler)"],
 			"price": 2.3,
 			"image": "tubo.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -661,7 +661,7 @@
 			"description": ""
 		},
 		"quinto": {
-			"name": "Quinto (Alhambra Especial)",
+			"name": ["Quinto (Alhambra Especial)", "20 cl Special Alhambra"],
 			"price": 2.2,
 			"image": "quinto.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -669,7 +669,7 @@
 			"description": ""
 		},
 		"tercio": {
-			"name": "Tercio de Especial",
+			"name": ["Tercio de Especial", "33 cl Special Alhambra"],
 			"price": 2.4,
 			"image": "tercio.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -677,15 +677,15 @@
 			"description": ""
 		},
 		"randler": {
-			"name": "Randler o Shandy",
+			"name": ["Randler o Shandy", "Randler or Shandy"],
 			"price": 2.4,
 			"image": "radler.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "De Cruzcampo"
+			"description": ["De Cruzcampo", "Cruzcampo"]
 		},
 		"heineken": {
-			"name": "1925, Heineken o Voll-Damm",
+			"name": ["1925, Heineken o Voll-Damm", "1925, Heineken or Voll-Damm"],
 			"price": 2.8,
 			"image": "heineken.jpeg",
 			"filters": ["vegetarian", "vegan"],
@@ -698,7 +698,7 @@
 			"image": "1906.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "Reserva especial"
+			"description": ["Reserva especial.", "Premium."]
 		},
 		"roja": {
 			"name": "Alhambra Reserva Roja",
@@ -709,91 +709,91 @@
 			"description": ""
 		},
 		"quinto-00": {
-			"name": "Quinto 00",
+			"name": ["Quinto 00", "20 cl Alcohol free beer"],
 			"price": 2.2,
 			"image": "freedamm.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "Para disfrutar con todo el sabor sin alcohol"
+			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
 		},
 		"tercio-00": {
-			"name": "Tercio 00",
+			"name": ["Tercio 00", "33 cl Alcohol free beer"],
 			"price": 2.4,
 			"image": "freedamm.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "Para disfrutar con todo el sabor sin alcohol"
+			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
 		},
 		"combinado": {
-			"name": "Combinado",
+			"name": ["Combinado", "Cocktails"],
 			"price": 4,
 			"image": "combinado.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad de alcoholes"
+			"description": ["Pregunte por nuestra variedad de alcoholes.", "Ask about our variety of drinks."]
 		},
 		"combinado-especial": {
-			"name": "Combinado especial",
+			"name": ["Combinado especial", "Special cocktails"],
 			"price": 4.5,
 			"image": "combinado-especial.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad de alcoholes de gama superior"
+			"description": ["Pregunte por nuestra variedad de alcoholes de gama superior.", "Ask about our variety of premium drinks."]
 		},
 		"chupito": {
-			"name": "Chupito",
+			"name": ["Chupito", "Shot"],
 			"price": 1,
 			"image": "chupito.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad"
+			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
 		},
 		"copa-licor": {
-			"name": "Copa de Licor",
+			"name": ["Copa de Licor", "Liqueur in Goblet glass"],
 			"price": 1.8,
 			"image": "copa-licor.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad"
+			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
 		},
 		"vaso-licor": {
-			"name": "Vaso de Licor",
+			"name": ["Vaso de Licor", "Liqueur glass"],
 			"price": 3,
 			"image": "vaso-licor.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": "Pregunte por nuestra variedad"
+			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
 		},
 		"vino-terreno": {
-			"name": "Vino del terreno",
+			"name": ["Vino del terreno", "Local wine"],
 			"price": 2.6,
 			"image": "vino-terreno.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
-			"description": "Solo en temporada"
+			"description": ["Solo en temporada", "In season only"]
 		},
 		"vino-blanco": {
-			"name": "Vino blanco \"Rueda\"",
+			"name": ["Vino blanco \"Rueda\"", "\"Rueda\" white wine"],
 			"prices": [13, 2.6],
-			"pricesNames": ["Botella", "Copa"],
+			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-blanco.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
 		},
 		"vino-frizzante": {
-			"name": "Vino Frizzante",
+			"name": ["Vino Frizzante", "Frizzante wine"],
 			"prices": [13, 2.6],
-			"pricesNames": ["Botella", "Copa"],
+			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-frizzante.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
 		},
 		"vino-semi-dulce": {
-			"name": "Vino blanco semi-dulce",
+			"name": ["Vino blanco semi-dulce", "Semi-sweet white wine"],
 			"prices": [14, 2.8],
-			"pricesNames": ["Botella", "Copa"],
+			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-semi-dulce.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -802,7 +802,7 @@
 		"rioja": {
 			"name": "Rioja (crianza)",
 			"prices": [14, 2.8],
-			"pricesNames": ["Botella", "Copa"],
+			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "rioja.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -811,16 +811,16 @@
 		"ribera": {
 			"name": "Ribera del Duero (crianza)",
 			"prices": [14, 2.8],
-			"pricesNames": ["Botella", "Copa"],
+			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "ribera.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
 		},
 		"vino-casa": {
-			"name": "Vino de la Casa",
+			"name": ["Vino de la Casa", "House wine"],
 			"prices": [13, 2],
-			"pricesNames": ["Botella", "Copa"],
+			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-casa.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -830,85 +830,85 @@
 	"filters": [
 		{
 			"id": "vegetarian",
-			"name": "Vegetariano",
-			"description": "Mostrar solo platos aptos para vegetarianos"
+			"name": ["Vegetariano", "Vegetarian"],
+			"description": ["Mostrar solo platos aptos para vegetarianos", "Show only food that is meat free"]
 		},
 		{
 			"id": "vegan",
-			"name": "Vegano",
-			"description": "Mostrar solo platos aptos para veganos"
+			"name": ["Vegano", "Vegan"],
+			"description": ["Mostrar solo platos aptos para veganos", "Show only food that is not animal derived"]
 		}
 	],
 	"allergens": {
 		"gluten": {
-			"name": "Sin gluten",
+			"name": ["Sin gluten", "Gluten free"],
 			"image": "gluten.svg",
-			"description": "Mostrar solo platos que no contengan gluten"
+			"description": ["Mostrar solo platos que no contengan gluten", "Show only food that does not contain gluten"]
 		},
 		"huevos": {
-			"name": "Sin huevos",
+			"name": ["Sin huevos", "Egg free"],
 			"image": "huevos.svg",
-			"description": "Mostrar solo platos que no contengan huevos"
+			"description": ["Mostrar solo platos que no contengan huevos", "Show only food that does not contain egg"]
 		},
 		"pescado": {
-			"name": "Sin pescado",
+			"name": ["Sin pescado", "Fish free"],
 			"image": "pescado.svg",
-			"description": "Mostrar solo platos que no contengan pescado"
+			"description": ["Mostrar solo platos que no contengan pescado", "Show only food that does not contain fish"]
 		},
 		"lacteos": {
-			"name": "Sin lácteos",
+			"name": ["Sin lácteos", "Milk free"],
 			"image": "lacteos.svg",
-			"description": "Mostrar solo platos que no contengan lácteos"
+			"description": ["Mostrar solo platos que no contengan lácteos", "Show only food that does not contain milk"]
 		},
 		"soja": {
-			"name": "Sin soja",
+			"name": ["Sin soja", "Soya free"],
 			"image": "soja.svg",
-			"description": "Mostrar solo platos que no contengan soja"
+			"description": ["Mostrar solo platos que no contengan soja", "Show only food that does not contain soya"]
 		},
 		"frutos": {
-			"name": "Sin frutos de cáscara",
+			"name": ["Sin frutos de cáscara", "Tree nut free"],
 			"image": "frutos-cascara.svg",
-			"description": "Mostrar solo platos que no contengan frutos de cáscara"
+			"description": ["Mostrar solo platos que no contengan frutos de cáscara", "Show only food that does not contain tree nuts"]
 		},
 		"crustaceos": {
-			"name": "Sin crustáceos",
+			"name": ["Sin crustáceos", "Crustacean free"],
 			"image": "crustaceos.svg",
-			"description": "Mostrar solo platos que no contengan crustáceos"
+			"description": ["Mostrar solo platos que no contengan crustáceos", "Show only food that does not contain crustaceans"]
 		},
 		"sesamo": {
-			"name": "Sin sésamo",
+			"name": ["Sin sésamo", "Sesame free"],
 			"image": "sesamo.svg",
-			"description": "Mostrar solo platos que no contengan granos de sésamo"
+			"description": ["Mostrar solo platos que no contengan granos de sésamo", "Show only food that does not contain sesame"]
 		},
 		"moluscos": {
-			"name": "Sin moluscos",
+			"name": ["Sin moluscos", "Mollusc free"],
 			"image": "moluscos.svg",
-			"description": "Mostrar solo platos que no contengan moluscos"
+			"description": ["Mostrar solo platos que no contengan moluscos", "Show only food that does not contain molluscs"]
 		},
 		"sulfitos": {
-			"name": "Sin sulfitos",
+			"name": ["Sin sulfitos", "Sulphite free"],
 			"image": "sulfitos.svg",
-			"description": "Mostrar solo platos que no contengan dióxido de azufre ni sulfitos"
+			"description": ["Mostrar solo platos que no contengan dióxido de azufre ni sulfitos", "Show only food that does not contain sulphites"]
 		},
 		"mostaza": {
-			"name": "Sin mostaza",
+			"name": ["Sin mostaza", "Mustard free"],
 			"image": "mostaza.svg",
-			"description": "Mostrar solo platos que no contengan mostaza"
+			"description": ["Mostrar solo platos que no contengan mostaza", "Show only food that does not contain mustard"]
 		},
 		"apio": {
-			"name": "Sin apio",
+			"name": ["Sin apio", "Celery free"],
 			"image": "apio.svg",
-			"description": "Mostrar solo platos que no contengan apio"
+			"description": ["Mostrar solo platos que no contengan apio", "Show only food that does not contain celery"]
 		},
 		"cacahuetes": {
-			"name": "Sin cacahuetes",
+			"name": ["Sin cacahuetes", "Peanut free"],
 			"image": "cacahuetes.svg",
-			"description": "Mostrar solo platos que no contengan cacahuetes"
+			"description": ["Mostrar solo platos que no contengan cacahuetes", "Show only food that does not contain peanuts"]
 		},
 		"altramuces": {
-			"name": "Sin altramuces",
+			"name": ["Sin altramuces", "Lupin free"],
 			"image": "altramuces.svg",
-			"description": "Mostrar solo platos que no contengan altramuces"
+			"description": ["Mostrar solo platos que no contengan altramuces", "Show only food that does not have lupins"]
 		}
 	}
 }
