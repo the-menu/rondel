@@ -25,7 +25,7 @@
 			"name":["Desayunos", "Breakfasts"],
 			"image": "cola-cao.jpg",
 			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
-			"info": ["Nuestros desayunos vienen acompañados de bizcocho casero.", "Our collection of breakfasts are served with a home made sponge cake."]
+			"info": ["Nuestros desayunos vienen acompañados de bizcocho casero.", "Our collection of breakfasts are served with homemade sponge cake."]
 		},
 		"tostadas": {
 			"name": ["Tostadas", "Toasts"],
