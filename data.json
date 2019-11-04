@@ -15,6 +15,15 @@
 			"items": ["beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
 			"info": ["Todas nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "All our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
 		},
+		"tapas-gratis": {
+			"name": "Tapas gratis",
+			"hidden": true,
+			"default": true,
+			"requires": "tapas-gratis",
+			"max": 2,
+			"items": ["beicon-gratis", "lomo-gratis", "carne-bocata-gratis", "burguer-pollo-gratis", "burguer-plancha-gratis", "jamon-bocata-gratis", "tortilla-gratis", "flamenquin-gratis", "finger-gratis", "huevo-gratis", "carne-gratis", "pinchitos-gratis", "calamares-gratis", "cazon-gratis", "sandwich-gratis", "sandwich-vegetal-gratis", "sandwich-mixto-gratis", "berenjenas-gratis", "queso-gratis", "jamon-gratis"],
+			"info": ["Elija su tapa para acompañar la bebida", "Choose the tapa to go with the drink"]
+		},
 		"tapas-dia": {
 			"name": ["Tapas del día", "Tapas of the day"], 
 			"image": "paella.jpg",
@@ -26,6 +35,12 @@
 			"image": "cola-cao.jpg",
 			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
 			"info": ["Nuestros desayunos vienen acompañados de bizcocho casero.", "Our collection of breakfasts are served with homemade sponge cake."]
+		},
+		"cafes": {
+			"name":["Cafés", "Coffees"],
+			"hidden": true,
+			"default": "cafe",
+			"items": ["cafe-solo", "cafe-leche", "cafe-cortado"]
 		},
 		"tostadas": {
 			"name": ["Tostadas", "Toasts"],
@@ -48,18 +63,136 @@
 		"bebidas": {
 			"name": ["Bebidas", "Drinks"],
 			"image": "refrescos.jpg",
-			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "randler", "heineken", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
+			"follows": "tapas-gratis",
+			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
 			"info": ["Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "All our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
+		},
+		"tintos": {
+			"name":["Tintos de verano", "Summer punches"],
+			"hidden": true,
+			"default": "tinto-verano",
+			"items": ["tinto-gaseosa", "tinto-limon"]
+		},
+		"nestea-aquarius": {
+			"name":["Nestea o Aquarius", "Nestea or Aquarius"],
+			"hidden": true,
+			"default": "nestea-aquarius",
+			"items": ["nestea", "aquarius-limon", "aquarius-naranja"]
+		},
+		"canas": {
+			"name": ["Cañas", "Beers"],
+			"hidden": true,
+			"default": "cana",
+			"items": ["cana-especial", "radler-especial"]
+		},
+		"tubos": {
+			"name": ["Tubos", "Beers"],
+			"hidden": true,
+			"default": "tubo",
+			"items": ["tubo-especial", "tubo-radler-especial"]
+		},
+		"radler-shandy": {
+			"name":["Radler o Shandy", "Radler o Shandy"],
+			"hidden": true,
+			"default": "radler-shandy",
+			"items": ["radler", "shandy"]
+		},
+		"especiales": {
+			"name": ["Cervezas", "Beers"],
+			"hidden": true,
+			"default": "especiales",
+			"items": ["1925", "heineken", "voll-damm"]
 		},
 		"vinos": {
 			"name": ["Vinos", "Wine"],
 			"image": "vinos.jpg",
+			"follows": "tapas-gratis",
 			"items": ["vino-terreno", "vino-blanco", "vino-frizzante", "vino-semi-dulce", "rioja", "ribera", "vino-casa"],
 			"hasSizes": [["Elija el tamaño", "Botella", "Copa"], ["Choose the size", "Bottle", "Glass"]],
 			"info": ["Las copas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Las botellas vienen acompañadas de 5 <a href=\"#/section/tapas\">tapas</a>. Máximo dos variedades por mesa.", "Our wine glasses are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Our bottles are served with 5 <a href=\"#/section/tapas\">tapas</a>. Two varieties max per table."]
 		}
 	},
 	"items": {
+		"beicon-gratis": {
+			"template": "beicon",
+			"price": 0
+		},
+		"lomo-gratis": {
+			"template": "lomo",
+			"price": 0
+		},
+		"carne-bocata-gratis": {
+			"template": "carne-bocata",
+			"price": 0
+		},
+		"burguer-pollo-gratis": {
+			"template": "burguer-pollo",
+			"price": 0
+		},
+		"burguer-plancha-gratis": {
+			"template": "burguer-plancha",
+			"price": 0
+		},
+		"jamon-bocata-gratis": {
+			"template": "jamon-bocata",
+			"price": 0
+		},
+		"tortilla-gratis": {
+			"template": "tortilla",
+			"price": 0
+		},
+		"flamenquin-gratis": {
+			"template": "flamenquin",
+			"price": 0
+		},
+		"finger-gratis": {
+			"template": "finger",
+			"price": 0
+		},
+		"huevo-gratis": {
+			"template": "huevo",
+			"price": 0
+		},
+		"carne-gratis": {
+			"template": "carne",
+			"price": 0
+		},
+		"pinchitos-gratis": {
+			"template": "pinchitos",
+			"price": 0
+		},
+		"calamares-gratis": {
+			"template": "calamares",
+			"price": 0
+		},
+		"cazon-gratis": {
+			"template": "cazon",
+			"price": 0
+		},
+		"sandwich-gratis": {
+			"template": "sandwich",
+			"price": 0
+		},
+		"sandwich-vegetal-gratis": {
+			"template": "sandwich-vegetal",
+			"price": 0
+		},
+		"sandwich-mixto-gratis": {
+			"template": "sandwich-mixto",
+			"price": 0
+		},
+		"berenjenas-gratis": {
+			"template": "berenjenas",
+			"price": 0
+		},
+		"queso-gratis": {
+			"template": "queso",
+			"price": 0
+		},
+		"jamon-gratis": {
+			"template": "jamon",
+			"price": 0
+		},
 		"beicon": {
 			"name": ["Bocata de beicon", "Bacon Sandwich"],
 			"price": 1.8,
@@ -544,9 +677,25 @@
 			"name": ["Café", "Coffee"],
 			"price": 1.2,
 			"image": "cafe.jpg",
+			"derives": "cafes",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": ["Sólo, con leche o cortado", "Black, espresso or latte"]
+			"description": ["Solo, con leche o cortado", "Black, espresso or latte"]
+		},
+		"cafe-solo": {
+			"template": "cafe",
+			"name": ["Café solo", "Black coffee"],
+			"description": ""
+		},
+		"cafe-leche": {
+			"template": "cafe",
+			"name": ["Café con leche", "Latte"],
+			"description": ""
+		},
+		"cafe-cortado": {
+			"template": "cafe",
+			"name": ["Café cortado", "Espresso"],
+			"description": ""
 		},
 		"infusion": {
 			"name": ["Infusión", "Infusion"],
@@ -632,33 +781,75 @@
 			"name": ["Tinto de verano", "Summer punch"],
 			"price": 2.3,
 			"image": "tinto-verano.jpg",
+			"derives": "tintos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ["Fresco vino tinto con gaseosa o gaseosa de limón", "Refreshing red wine with either soda or lemon soda"]
+		},
+		"tinto-gaseosa": {
+			"template": "tinto-verano",
+			"name": ["Tinto de verano con gaseosa", "Summer punch with soda"],
+			"description": ["Fresco vino tinto con gaseosa", "Refreshing red wine with soda"]
+		},
+		"tinto-limon": {
+			"template": "tinto-verano",
+			"name": ["Tinto de verano con gaseosa de limón", "Summer punch with lemon soda"],
+			"description": ["Fresco vino tinto con gaseosa de limón", "Refreshing red wine with lemon soda"]
 		},
 		"nestea-aquarius": {
 			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
 			"price": 2.4,
 			"image": "nestea-aquarius.jpg",
+			"derives": "nestea-aquarius",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
 			"description": ""
 		},
+		"nestea": {
+			"template": "nestea-aquarius",
+			"name": "Nestea"
+		},
+		"aquarius-limon": {
+			"template": "nestea-aquarius",
+			"name": ["Aquarius de limón", "Aquarius"]
+		},
+		"aquarius-naranja": {
+			"template": "nestea-aquarius",
+			"name": ["Aquarius de naranja", "Aquarius Orange"]
+		},
 		"cana": {
-			"name": ["Caña (Alhambra Especial o Randler Especial)", "Half pint (Special Alhambra or Special Randler)"],
+			"name": ["Caña (Alhambra Especial o Radler Especial)", "Half pint (Special Alhambra or Special Radler)"],
 			"price": 2,
 			"image": "cana.jpg",
+			"derives": "canas",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
 		},
+		"cana-especial": {
+			"template": "cana",
+			"name": ["Caña de Alhambra Especial", "Half pint of Special Alhambra"]
+		},
+		"radler-especial": {
+			"template": "cana",
+			"name": ["Caña de Radler Especial", "Half pint of Radler Alhambra"]
+		},
 		"tubo": {
-			"name": ["Tubo (Alhambra Especial o Randler Especial)", "Pint (Special Alhambra or Special Randler)"],
+			"name": ["Tubo (Alhambra Especial o Radler Especial)", "Pint (Special Alhambra or Special Radler)"],
 			"price": 2.3,
 			"image": "tubo.jpg",
+			"derives": "tubos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
+		},
+		"tubo-especial": {
+			"template": "tubo",
+			"name": ["Tubo de Alhambra Especial", "Pint of Special Alhambra"]
+		},
+		"tubo-radler-especial": {
+			"template": "tubo",
+			"name": ["Tubo de Radler Especial", "Pint of Radler Alhambra"]
 		},
 		"quinto": {
 			"name": ["Quinto (Alhambra Especial)", "20 cl Special Alhambra"],
@@ -676,21 +867,45 @@
 			"allergens": ["sulfitos"],
 			"description": ""
 		},
-		"randler": {
-			"name": ["Randler o Shandy", "Randler or Shandy"],
+		"radler-shandy": {
+			"name": ["Radler o Shandy", "Radler or Shandy"],
 			"price": 2.4,
 			"image": "radler.jpg",
+			"derives": "radler-shandy",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ["De Cruzcampo", "Cruzcampo"]
 		},
-		"heineken": {
+		"radler": {
+			"template": "radler-shandy",
+			"name": "Radler"
+		},
+		"shandy": {
+			"template": "radler-shandy",
+			"name": "Shandy"
+		},
+		"especiales": {
 			"name": ["1925, Heineken o Voll-Damm", "1925, Heineken or Voll-Damm"],
 			"price": 2.8,
 			"image": "heineken.jpeg",
+			"derives": "especiales",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
+		},
+		"1925": {
+			"template": "especiales",
+			"name": "1925",
+			"image": "1925.png"
+		},
+		"heineken": {
+			"template": "especiales",
+			"name": "Heineken"
+		},
+		"voll-damm": {
+			"template": "especiales",
+			"name": "Voll-Damm",
+			"image": "voll-damm.png"
 		},
 		"1906": {
 			"name": "1906",
