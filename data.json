@@ -1222,7 +1222,7 @@
 		"altramuces": {
 			"name": ["Sin altramuces", "Lupin free"],
 			"image": "altramuces.svg",
-			"description": ["Mostrar solo platos que no contengan altramuces", "Show only food that does not have lupins"]
+			"description": ["Mostrar solo platos que no contengan altramuces", "Show only food that does not contain lupins"]
 		}
 	}
 }
