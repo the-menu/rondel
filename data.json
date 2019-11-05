@@ -6,7 +6,8 @@
 		"languages": ["es", "en"],
 		"defaultLanguage": "en",
 		"hours": ["Lunes-Viernes: de 9:30 a 16:00\ny de 20:00 a 23:00\nSábados: de 12:30 a 16:00\ny de 20:00 a 23:00\nDomingos: cerrado.", "Monday-Friday: from 9:30 to 16:00\nand from 20:00 to 23:00\nSaturday: from 12:30 to 16:00\nand from 20:00 to 23:00\nSunday: closed"],
-		"hoursDetails": ["Cocina abierta desde las 12:30 hasta la hora de cierre", "Kitchen open from 12:30 until closing time"]
+		"hoursDetails": ["Cocina abierta desde las 12:30 hasta la hora de cierre", "Kitchen open from 12:30 until closing time"],
+		"ids": ["860488282", "166589969"]
 	},
 	"sections": {
 		"tapas": {
