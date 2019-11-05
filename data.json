@@ -22,7 +22,7 @@
 			"requires": "tapas-gratis",
 			"max": 2,
 			"items": ["beicon-gratis", "lomo-gratis", "carne-bocata-gratis", "burguer-pollo-gratis", "burguer-plancha-gratis", "jamon-bocata-gratis", "tortilla-gratis", "flamenquin-gratis", "finger-gratis", "huevo-gratis", "carne-gratis", "pinchitos-gratis", "calamares-gratis", "cazon-gratis", "sandwich-gratis", "sandwich-vegetal-gratis", "sandwich-mixto-gratis", "berenjenas-gratis", "queso-gratis", "jamon-gratis"],
-			"info": ["Elija su tapa para acompañar la bebida", "Choose the tapa to go with the drink"]
+			"info": ["Elija su tapa para acompañar la bebida", "Choose the tapa to go with your drink"]
 		},
 		"tapas-dia": {
 			"name": ["Tapas del día", "Tapas of the day"], 
