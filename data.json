@@ -1,6 +1,6 @@
 {
 	"info": {
-		"name": "El Rondel", 
+		"name": "El Rondel",
 		"address": "Av. de Barcelona, 8, 18006 Granada",
 		"image": "rondel.jpg",
 		"languages": ["es", "en"],
@@ -32,16 +32,22 @@
 			"info": ["Nuestra selección de tapas del día va variando. Estos son algunos ejemplos. Pregunte al camarero.", "Our selection of tapas changes from day to day. Here are some examples. Ask our waiter."]
 		},
 		"desayunos": {
-			"name":["Desayunos", "Breakfasts"],
+			"name": ["Desayunos", "Breakfasts"],
 			"image": "cola-cao.jpg",
 			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
 			"info": ["Nuestros desayunos vienen acompañados de bizcocho casero.", "Our collection of breakfasts are served with homemade sponge cake."]
 		},
 		"cafes": {
-			"name":["Cafés", "Coffees"],
+			"name": ["Cafés", "Coffees"],
 			"hidden": true,
 			"default": "cafe",
 			"items": ["cafe-solo", "cafe-leche", "cafe-cortado"]
+		},
+		"zumos": {
+			"name": ["Zumos", "Juice"],
+			"hidden": true,
+			"default": "zumos",
+			"items": ["zumo-pina", "zumo-melocoton", "zumo-tomate"]
 		},
 		"tostadas": {
 			"name": ["Tostadas", "Toasts"],
@@ -68,17 +74,23 @@
 			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
 			"info": ["Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "All our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
 		},
+		"refrescos": {
+			"name": ["Refrescos", "Refreshments"],
+			"hidden": true,
+			"default": "refrescos",
+			"items": ["coca-cola", "coca-cola-zero", "coca-cola-zero-zero", "fanta-naranja", "fanta-limon", "7-up", "pepsi", "bitter-kas", "tonica", "agua"]
+		},
 		"tintos": {
-			"name":["Tintos de verano", "Summer punches"],
+			"name": ["Tintos de verano", "Summer punches"],
 			"hidden": true,
 			"default": "tinto-verano",
 			"items": ["tinto-gaseosa", "tinto-limon"]
 		},
 		"nestea-aquarius": {
-			"name":["Nestea o Aquarius", "Nestea or Aquarius"],
+			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
 			"hidden": true,
 			"default": "nestea-aquarius",
-			"items": ["nestea", "aquarius-limon", "aquarius-naranja"]
+			"items": ["nestea", "aquarius-limon", "aquarius-naranja", "aquarius-maracuya"]
 		},
 		"canas": {
 			"name": ["Cañas", "Beers"],
@@ -93,7 +105,7 @@
 			"items": ["tubo-especial", "tubo-radler-especial"]
 		},
 		"radler-shandy": {
-			"name":["Radler o Shandy", "Radler o Shandy"],
+			"name": ["Radler o Shandy", "Radler o Shandy"],
 			"hidden": true,
 			"default": "radler-shandy",
 			"items": ["radler", "shandy"]
@@ -227,7 +239,7 @@
 			"description": ["Con queso, lechuga, tomate y kétchup. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese, lettuce, tomato and ketchup. Served with fries to dip in our magic sauce (contains egg)."]
 		},
 		"burguer-plancha": {
-			"name":["Burguer plancha", "Grilled Burger"],
+			"name": ["Burguer plancha", "Grilled Burger"],
 			"price": 1.8,
 			"image": "burguer-plancha.jpg",
 			"filters": [],
@@ -291,7 +303,7 @@
 			"description": ["El clásico pinchito moruno acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)", "Our classic skewered pork served with bread and fries to dip in our magic sauce (contains egg)"]
 		},
 		"calamares": {
-			"name":["Calamares fritos", "Fried squid"],
+			"name": ["Calamares fritos", "Fried squid"],
 			"price": 1.8,
 			"image": "calamares.jpg",
 			"filters": [],
@@ -758,17 +770,84 @@
 			"name": ["Zumos", "Juice"],
 			"price": 1.4,
 			"image": "zumos.jpg",
+			"derives": "zumos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
+			"description": ["De piña, melocotón o tomate", "Pineapple, peach or tomato"]
+		},
+		"zumo-pina": {
+			"template": "zumos",
+			"name": ["Zumo de piña", "Pineapple juice"],
+			"description": ""
+		},
+		"zumo-melocoton": {
+			"template": "zumos",
+			"name": ["Zumo de melocoton", "Peach juice"],
+			"description": ""
+		},
+		"zumo-tomate": {
+			"template": "zumos",
+			"name": ["Zumo de tomate", "Tomato juice"],
+			"description": ""
 		},
 		"refrescos": {
 			"name": ["Refrescos", "Refreshments"],
 			"price": 2.3,
 			"image": "refrescos.jpg",
+			"derives": "refrescos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": ["Pregunte por nuestra variedad.", "Ask about our variety."]
+			"description": ["Coca-Cola, Coca-Cola Zero, Coca-Cola Zero Zero, Fanta de naranja, Fanta de limón, 7-up, Pepsi, Bitter Kas, tónica o agua mineral", "Coca-Cola, Coca-Cola Zero, Coca-Cola Zero Zero, Fanta Orange, Fanta Lemon, 7-up, Pepsi, Bitter Kas, tonic or mineral water"]
+		},
+		"coca-cola": {
+			"template": "refrescos",
+			"name": "Coca-cola",
+			"description": ""
+		},
+		"coca-cola-zero": {
+			"template": "refrescos",
+			"name": "Coca-cola Zero",
+			"description": ["Sin azúcar", "Without sugar"]
+		},
+		"coca-cola-zero-zero": {
+			"template": "refrescos",
+			"name": "Coca-cola Zero Zero",
+			"description": ["Sin azúcar ni cafeína", "Without sugar or caffeine"]
+		},
+		"fanta-naranja": {
+			"template": "refrescos",
+			"name": ["Fanta de naranja", "Fanta Orange"],
+			"description": ""
+		},
+		"fanta-limon": {
+			"template": "refrescos",
+			"name": ["Fanta de limón", "Fanta Lemon"],
+			"description": ""
+		},
+		"7-up": {
+			"template": "refrescos",
+			"name": "7-up",
+			"description": ""
+		},
+		"pepsi": {
+			"template": "refrescos",
+			"name": "Pepsi",
+			"description": ""
+		},
+		"bitter-kas": {
+			"template": "refrescos",
+			"name": "Bitter Kas",
+			"description": ""
+		},
+		"tonica": {
+			"template": "refrescos",
+			"name": ["Tónica", "Tonic"],
+			"description": ""
+		},
+		"agua": {
+			"template": "refrescos",
+			"name": ["Agua mineral", "Mineral water"],
+			"description": ""
 		},
 		"vino-sin": {
 			"name": ["Vino sin alcohol", "Alcohol free wine"],
@@ -817,6 +896,10 @@
 		"aquarius-naranja": {
 			"template": "nestea-aquarius",
 			"name": ["Aquarius de naranja", "Aquarius Orange"]
+		},
+		"aquarius-maracuya": {
+			"template": "nestea-aquarius",
+			"name": ["Aquarius de maracuyá", "Aquarius Passionfruit"]
 		},
 		"cana": {
 			"name": ["Caña (Alhambra Especial o Radler Especial)", "Half pint (Special Alhambra or Special Radler)"],
