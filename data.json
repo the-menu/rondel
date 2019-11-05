@@ -78,7 +78,7 @@
 			"name": ["Refrescos", "Refreshments"],
 			"hidden": true,
 			"default": "refrescos",
-			"items": ["coca-cola", "coca-cola-zero", "coca-cola-zero-zero", "fanta-naranja", "fanta-limon", "7-up", "pepsi", "bitter-kas", "tonica", "agua"]
+			"items": ["coca-cola", "coca-cola-zero", "coca-cola-zero-zero", "fanta-naranja", "fanta-limon", "7-up", "pepsi", "bitter-kas", "tonica", "agua", "zumo-tomate-tapa", "zumo-pina-tapa", "zumo-melocoton-tapa"]
 		},
 		"tintos": {
 			"name": ["Tintos de verano", "Summer punches"],
@@ -797,7 +797,7 @@
 			"derives": "refrescos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
-			"description": ["Coca-Cola, Coca-Cola Zero, Coca-Cola Zero Zero, Fanta de naranja, Fanta de limón, 7-up, Pepsi, Bitter Kas, tónica o agua mineral", "Coca-Cola, Coca-Cola Zero, Coca-Cola Zero Zero, Fanta Orange, Fanta Lemon, 7-up, Pepsi, Bitter Kas, tonic or mineral water"]
+			"description": ["Coca-Cola, Coca-Cola Zero, Coca-Cola Zero Zero, Fanta de naranja, Fanta de limón, 7-up Free, Pepsi, Bitter Kas, tónica, agua mineral o zumo", "Coca-Cola, Coca-Cola Zero, Coca-Cola Zero Zero, Fanta Orange, Fanta Lemon, 7-up Free, Pepsi, Bitter Kas, tonic, mineral water or juice"]
 		},
 		"coca-cola": {
 			"template": "refrescos",
@@ -826,8 +826,8 @@
 		},
 		"7-up": {
 			"template": "refrescos",
-			"name": "7-up",
-			"description": ""
+			"name": "7-up Free",
+			"description": ["Sin azúcar", "Without sugar"]
 		},
 		"pepsi": {
 			"template": "refrescos",
@@ -847,6 +847,21 @@
 		"agua": {
 			"template": "refrescos",
 			"name": ["Agua mineral", "Mineral water"],
+			"description": ""
+		},
+		"zumo-tomate-tapa": {
+			"template": "refrescos",
+			"name": ["Zumo de tomate", "Tomato juice"],
+			"description": ""
+		},
+		"zumo-pina-tapa": {
+			"template": "refrescos",
+			"name": ["Zumo de piña", "Pineapple juice"],
+			"description": ""
+		},
+		"zumo-melocoton-tapa": {
+			"template": "refrescos",
+			"name": ["Zumo de melocotón", "Peach juice"],
 			"description": ""
 		},
 		"vino-sin": {
