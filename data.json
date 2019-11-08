@@ -70,7 +70,6 @@
 		"bebidas": {
 			"name": ["Bebidas", "Drinks"],
 			"image": "refrescos.jpg",
-			"follows": "tapas-gratis",
 			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
 			"info": ["Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "All our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
 		},
@@ -794,6 +793,7 @@
 			"name": ["Refrescos", "Refreshments"],
 			"price": 2.3,
 			"image": "refrescos.jpg",
+			"follows": "tapas-gratis",
 			"derives": "refrescos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -868,6 +868,7 @@
 			"name": ["Vino sin alcohol", "Alcohol free wine"],
 			"price": 2.3,
 			"image": "vino-sin.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
 			"description": ""
@@ -876,6 +877,7 @@
 			"name": ["Tinto de verano", "Summer punch"],
 			"price": 2.3,
 			"image": "tinto-verano.jpg",
+			"follows": "tapas-gratis",
 			"derives": "tintos",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -895,6 +897,7 @@
 			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
 			"price": 2.4,
 			"image": "nestea-aquarius.jpg",
+			"follows": "tapas-gratis",
 			"derives": "nestea-aquarius",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -921,6 +924,7 @@
 			"price": 2,
 			"image": "cana.jpg",
 			"derives": "canas",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
@@ -938,6 +942,7 @@
 			"price": 2.3,
 			"image": "tubo.jpg",
 			"derives": "tubos",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
@@ -954,6 +959,7 @@
 			"name": ["Quinto (Alhambra Especial)", "20 cl Special Alhambra"],
 			"price": 2.2,
 			"image": "quinto.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
@@ -962,6 +968,7 @@
 			"name": ["Tercio de Especial", "33 cl Special Alhambra"],
 			"price": 2.4,
 			"image": "tercio.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
@@ -969,6 +976,7 @@
 		"radler-shandy": {
 			"name": ["Radler o Shandy", "Radler or Shandy"],
 			"price": 2.4,
+			"follows": "tapas-gratis",
 			"image": "radler.jpg",
 			"derives": "radler-shandy",
 			"filters": ["vegetarian", "vegan"],
@@ -986,6 +994,7 @@
 		"especiales": {
 			"name": ["1925, Heineken o Voll-Damm", "1925, Heineken or Voll-Damm"],
 			"price": 2.8,
+			"follows": "tapas-gratis",
 			"image": "heineken.jpeg",
 			"derives": "especiales",
 			"filters": ["vegetarian", "vegan"],
@@ -1010,6 +1019,7 @@
 			"name": "1906",
 			"price": 2.8,
 			"image": "1906.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ["Reserva especial.", "Premium."]
@@ -1018,6 +1028,7 @@
 			"name": "Alhambra Reserva Roja",
 			"price": 3,
 			"image": "roja.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ""
@@ -1026,6 +1037,7 @@
 			"name": ["Quinto 00", "20 cl Alcohol free beer"],
 			"price": 2.2,
 			"image": "freedamm.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
@@ -1034,6 +1046,7 @@
 			"name": ["Tercio 00", "33 cl Alcohol free beer"],
 			"price": 2.4,
 			"image": "freedamm.jpg",
+			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
