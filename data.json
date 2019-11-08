@@ -17,7 +17,7 @@
 			"info": ["Todas nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "All our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
 		},
 		"tapas-gratis": {
-			"name": "Tapas gratis",
+			"name": ["Tapas gratis", "Free tapas"],
 			"hidden": true,
 			"default": true,
 			"requires": "tapas-gratis",
