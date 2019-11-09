@@ -14,7 +14,7 @@
 			"name": "Tapas",
 			"image": "beicon.jpg",
 			"items": ["beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
-			"info": ["Todas nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "All our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
+			"info": ["Nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "Our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
 		},
 		"tapas-gratis": {
 			"name": ["Tapas gratis", "Free tapas"],
@@ -71,7 +71,7 @@
 			"name": ["Bebidas", "Drinks"],
 			"image": "refrescos.jpg",
 			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "1906", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
-			"info": ["Todas nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "All our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
+			"info": ["Nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "Our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
 		},
 		"refrescos": {
 			"name": ["Refrescos", "Refreshments"],
