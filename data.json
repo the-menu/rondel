@@ -53,7 +53,7 @@
 			"name": ["Tostadas", "Toasts"],
 			"image": "tomate.jpeg",
 			"items": ["aceite", "tomate", "pate", "mantequilla", "mixta", "sobrasada",  "york", "serrano", "ingrediente", "sandwich-mixto"],
-			"hasSizes": ["Elija el tamaño", "Media", "Entera"],
+			"hasSizes": [["Elija el tamaño", "Media", "Entera"], ["Choose the size", "Half", "Platter"]],
 			"info": ["De chapata integral", "Wholemeal ciabatta bread"]
 		},
 		"bocadillos": {
