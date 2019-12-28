@@ -6,8 +6,7 @@
 		"languages": ["es", "en"],
 		"defaultLanguage": "en",
 		"hours": ["Lunes-Viernes: de 9:30 a 16:00\ny de 20:00 a 23:00\nSábados: de 12:30 a 16:00\ny de 20:00 a 23:00\nDomingos: cerrado.", "Monday-Friday: from 9:30 to 16:00\nand from 20:00 to 23:00\nSaturday: from 12:30 to 16:00\nand from 20:00 to 23:00\nSunday: closed"],
-		"hoursDetails": ["Cocina abierta desde las 12:30 hasta la hora de cierre", "Kitchen open from 12:30 until closing time"],
-		"ids": ["860488282", "166589969"]
+		"hoursDetails": ["Cocina abierta desde las 12:30 hasta la hora de cierre", "Kitchen open from 12:30 until closing time"]
 	},
 	"sections": {
 		"tapas": {
@@ -28,8 +27,8 @@
 		"tapas-dia": {
 			"name": ["Tapas del día", "Tapas of the day"], 
 			"image": "paella.jpg",
-			"items": ["fajita", "salmorejo", "habas-huevo", "pescado", "cocido", "cazuela", "alubias", "paella", "lentejas", "migas"],
-			"info": ["Nuestra selección de tapas del día va variando. Estos son algunos ejemplos. Pregunte al camarero.", "Our selection of tapas changes from day to day. Here are some examples. Ask our waiter."]
+			"items": [],
+			"info": ["Nuestra selección de tapas del día va variando. Pregunte al camarero.", "Our selection of tapas changes from day to day. Ask our waiter."]
 		},
 		"desayunos": {
 			"name": ["Desayunos", "Breakfasts"],
@@ -364,86 +363,6 @@
 			"filters": [],
 			"allergens": [],
 			"description": ["Delicioso jamón serrano acompañado por un poco de pan", "Delicious cured ham served with bread"]
-		},
-		"salmorejo": {
-			"name": "Salmorejo",
-			"price": 1.8,
-			"image": "salmorejo.jpg",
-			"filters": ["vegetarian"],
-			"allergens": ["gluten", "huevos"],
-			"description": ["Crema de tomate típico de la zona de Andalucía", "Tomato Cream typical from the region of Andalusia"]
-		},
-		"fajita": {
-			"name": "Fajita",
-			"price": 1.8,
-			"image": "fajita.jpg",
-			"filters": [],
-			"allergens": ["gluten"],
-			"description": ["Fajita de carne picada con guarnición de patatas y nuestra salsa mágica (elaborada con huevo)", "Minced meat fajita served with fries to dip in our magic sauce (contains egg)"]
-		},
-		"habas-huevo": {
-			"name": ["Habas con huevo frito", "Broad beans with fried egg"],
-			"price": 1.8,
-			"image": "habas-huevo.jpg",
-			"filters": ["vegetarian"],
-			"allergens": ["huevos"],
-			"description": ["Clásico plato de habas con huevo acompañadas por un poco de pan", "Our classic broad beans and fried egg served with bread"]
-		},
-		"cazuela": {
-			"name": ["Cazuela", "Cazuela (Shellfish stew)"],
-			"price": 1.8,
-			"image": "cazuela.jpg",
-			"filters": [],
-			"allergens": ["moluscos", "gluten"],
-			"description": ["Cazuela de fideos con marisco acompañada por un poco de pan. Todos los martes.", "Noodles in shellfish stew served with bread. Every Tuesday."]
-		},
-		"pescado": {
-			"name": ["Pescaíto frito", "Fried fish"],
-			"price": 1.8,
-			"missing": "cazon.jpg",
-			"filters": [],
-			"allergens": ["pescado", "gluten"],
-			"description": ["Delicioso pescado frito", "Delicious fried fish"]
-		},
-		"cocido": {
-			"name": ["Cocido", "Cocido (Spanish stew)"],
-			"price": 1.8,
-			"missing": "paella.jpg",
-			"filters": [],
-			"allergens": ["apio"],
-			"description": ["Todos los lunes", "Every Monday"]
-		},
-		"alubias": {
-			"name": ["Alubias con almejas", "Beans and clams"],
-			"price": 1.8,
-			"missing": "paella.jpg",
-			"filters": [],
-			"allergens": ["moluscos", "gluten"],
-			"description": ["Todos los miércoles", "Every Wednesday"]
-		},
-		"paella": {
-			"name": "Paella",
-			"price": 1.8,
-			"image": "paella.jpg",
-			"filters": [],
-			"allergens": ["moluscos", "gluten"],
-			"description": ["Todos los jueves", "Every Thursday"]
-		},
-		"lentejas": {
-			"name": ["Lentejas estofadas con chorizo", "Stewed lentils with chorizo"],
-			"price": 1.8,
-			"missing": "paella.jpg",
-			"filters": [],
-			"allergens": [],
-			"description": ["Todos los viernes", "Every Friday"]
-		},
-		"migas": {
-			"name": ["Migas", "Migas (Bread crumbs)"],
-			"price": 1.8,
-			"missing": "paella.jpg",
-			"filters": [],
-			"allergens": ["gluten"],
-			"description": ["Todos los sábados", "Every Saturday"]
 		},
 		"aceite": {
 			"name": ["Tostada de aceite", "Oil toast"],
