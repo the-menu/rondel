@@ -33,7 +33,7 @@
 		"desayunos": {
 			"name": ["Desayunos", "Breakfasts"],
 			"image": "cola-cao.jpg",
-			"items": ["cafe", "infusion", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
+			"items": ["cafe", "infusion", "cafe-doble", "cafe-bombon", "carajillo", "carajillo-baileys", "cola-cao", "batido", "zumo-natural", "zumos"],
 			"info": ["Nuestros desayunos vienen acompañados de bizcocho casero.", "Our collection of breakfasts are served with homemade sponge cake."]
 		},
 		"cafes": {
@@ -58,7 +58,7 @@
 		"bocadillos": {
 			"name": ["Bocadillos", "Sandwiches"],
 			"image": "carne-bocata-grande.jpg",
-			"items": ["queso-bocata", "jamon-bocata-grande", "calamares-bocata", "lomo-bocata", "hamburguesa-completa", "hamburguesa-mixta", "beicon-bocata", "carne-bocata-grande"]
+			"items": ["jamon-bocata-grande", "queso-bocata", "calamares-bocata", "lomo-bocata", "hamburguesa-completa", "hamburguesa-mixta", "beicon-bocata", "carne-bocata-grande"]
 		},
 		"raciones": {
 			"name": ["Raciones", "Platters"],
@@ -366,7 +366,7 @@
 		},
 		"aceite": {
 			"name": ["Tostada de aceite", "Oil toast"],
-			"prices": [0.70, 1.20],
+			"prices": [0.80, 1.40],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
 			"filters": ["vegetarian", "vegan"],
@@ -375,7 +375,7 @@
 		},
 		"tomate": {
 			"name": ["Tostada de tomate", "Tomato toast"],
-			"prices": [0.70, 1.20],
+			"prices": [0.80, 1.40],
 			"pricesNames": ["Media", "Entera"],
 			"image": "tomate.jpeg",
 			"filters": ["vegetarian", "vegan"],
@@ -384,7 +384,7 @@
 		},
 		"pate": {
 			"name": ["Tostada de paté", "Paté toast"],
-			"prices": [0.70, 1.20],
+			"prices": [0.80, 1.40],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
 			"filters": [],
@@ -393,7 +393,7 @@
 		},
 		"mantequilla": {
 			"name": ["Tostada de mantequilla", "Butter toast"],
-			"prices": [0.70, 1.20],
+			"prices": [0.80, 1.40],
 			"pricesNames": ["Media", "Entera"],
 			"image": "mantequilla.jpg",
 			"filters": ["vegetarian"],
@@ -402,7 +402,7 @@
 		},
 		"mixta": {
 			"name": ["Tostada mixta", "Butter and jam toast"],
-			"prices": [0.70, 1.20],
+			"prices": [0.80, 1.40],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "mantequilla.jpg",
 			"filters": ["vegetarian"],
@@ -411,7 +411,7 @@
 		},
 		"sobrasada": {
 			"name": ["Tostada de sobrasada", "Mallorcan sobrasada toast"],
-			"prices": [0.70, 1.20],
+			"prices": [0.80, 1.40],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
 			"filters": [],
@@ -420,7 +420,7 @@
 		},
 		"york": {
 			"name": ["Tostada de jamón york", "Ham toast"],
-			"prices": [1.10, 2],
+			"prices": [1.20, 2.2],
 			"pricesNames": ["Media", "Entera"],
 			"image": "york.jpg",
 			"filters": [],
@@ -429,7 +429,7 @@
 		},
 		"serrano": {
 			"name": ["Tostada de jamón serrano", "Cured ham toast"],
-			"prices": [1.10, 2.00],
+			"prices": [1.20, 2.20],
 			"pricesNames": ["Media", "Entera"],
 			"image": "serrano.jpg",
 			"filters": [],
@@ -438,7 +438,7 @@
 		},
 		"atun": {
 			"name": ["Tostada de atún", "Tuna toast"],
-			"prices": [1.10, 2],
+			"prices": [1.20, 2.2],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "tomate.jpeg",
 			"filters": [],
@@ -447,7 +447,7 @@
 		},
 		"ingrediente": {
 			"name": ["Ingrediente extra", "Extra ingredient"],
-			"prices": [0.30, 0.50],
+			"prices": [0.50, 0.90],
 			"pricesNames": ["Media", "Entera"],
 			"missing": "serrano.jpg",
 			"filters": ["vegetarian"],
@@ -456,7 +456,7 @@
 		},
 		"queso-bocata": {
 			"name": ["Bocadillo de queso con tomate", "Cheese and tomato sandwich"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos", "gluten"],
@@ -464,7 +464,7 @@
 		},
 		"jamon-bocata-grande": {
 			"name": ["Bocadillo de jamón serrano con tomate", "Cured ham and tomato sandwich"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["gluten"],
@@ -472,7 +472,7 @@
 		},
 		"calamares-bocata": {
 			"name": ["Bocadillo de calamares fritos con mayonesa", "Fried squid and mayonnaise sandwich"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "lacteos", "gluten"],
@@ -480,7 +480,7 @@
 		},
 		"lomo-bocata": {
 			"name": ["Lomo completo", "Pork loin sandwich"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
@@ -488,7 +488,7 @@
 		},
 		"hamburguesa-completa": {
 			"name": ["Hamburguesa completa de pollo empanado", "Fried chicken hamburger"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "burguer-pollo.jpg",
 			"filters": [],
 			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
@@ -496,7 +496,7 @@
 		},
 		"hamburguesa-mixta": {
 			"name": ["Hamburguesa casera mixta", "Homemade hamburger"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "burguer-plancha.jpg",
 			"filters": [],
 			"allergens": ["sesamo", "huevos", "lacteos", "gluten"],
@@ -504,7 +504,7 @@
 		},
 		"beicon-bocata": {
 			"name": ["Beicon completo", "Bacon sandwich"],
-			"price": 4.0,
+			"price": 4.5,
 			"missing": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "huevo", "gluten"],
@@ -512,7 +512,7 @@
 		},
 		"carne-bocata-grande": {
 			"name": ["Bocadillo de carne en salsa", "Saucy meat sandwich"],
-			"price": 4.0,
+			"price": 4.5,
 			"image": "carne-bocata-grande.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
@@ -606,7 +606,7 @@
 		},
 		"cafe": {
 			"name": ["Café", "Coffee"],
-			"price": 1.2,
+			"price": 1.3,
 			"image": "cafe.jpg",
 			"derives": "cafes",
 			"filters": ["vegetarian", "vegan"],
@@ -628,9 +628,15 @@
 			"name": ["Café cortado", "Espresso"],
 			"description": ""
 		},
+		"cafe-doble": {
+			"template": "cafe",
+			"name": ["Café doble", "Double espresso"],
+			"price": 1.4,
+			"description": ""
+		},
 		"infusion": {
 			"name": ["Infusión", "Infusion"],
-			"price": 1.2,
+			"price": 1.3,
 			"image": "infusion.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -638,7 +644,7 @@
 		},
 		"cafe-bombon": {
 			"name": ["Café bombón", "Condensed milk espresso"],
-			"price": 1.6,
+			"price": 1.7,
 			"image": "cafe-bombon.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
@@ -646,7 +652,7 @@
 		},
 		"carajillo": {
 			"name": "Carajillo",
-			"price": 1.8,
+			"price": 1.9,
 			"image": "carajillo.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -654,7 +660,7 @@
 		},
 		"carajillo-baileys": {
 			"name": ["Carajillo de Baileys", "Baileys Carajillo"],
-			"price": 2.2,
+			"price": 2.3,
 			"image": "carajillo-baileys.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
@@ -662,7 +668,7 @@
 		},
 		"cola-cao": {
 			"name": "Cola Cao",
-			"price": 1.5,
+			"price": 1.6,
 			"image": "cola-cao.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
@@ -670,7 +676,7 @@
 		},
 		"batido": {
 			"name": ["Batido de chocolate", "Chocolate milkshake"],
-			"price": 1.8,
+			"price": 1.9,
 			"image": "batido.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
@@ -678,7 +684,7 @@
 		},
 		"zumo-natural": {
 			"name": ["Zumo de naranja natural", "Natural orange juice"],
-			"price": 2,
+			"price": 2.2,
 			"image": "zumo-natural.png",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -686,7 +692,7 @@
 		},
 		"zumos": {
 			"name": ["Zumos", "Juice"],
-			"price": 1.4,
+			"price": 1.5,
 			"image": "zumos.jpg",
 			"derives": "zumos",
 			"filters": ["vegetarian", "vegan"],
@@ -710,7 +716,7 @@
 		},
 		"refrescos": {
 			"name": ["Refrescos", "Refreshments"],
-			"price": 2.3,
+			"price": 2.4,
 			"image": "refrescos.jpg",
 			"follows": "tapas-gratis",
 			"derives": "refrescos",
@@ -785,7 +791,7 @@
 		},
 		"vino-sin": {
 			"name": ["Vino sin alcohol", "Alcohol free wine"],
-			"price": 2.3,
+			"price": 2.4,
 			"image": "vino-sin.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -794,7 +800,7 @@
 		},
 		"tinto-verano": {
 			"name": ["Tinto de verano", "Summer punch"],
-			"price": 2.3,
+			"price": 2.4,
 			"image": "tinto-verano.jpg",
 			"follows": "tapas-gratis",
 			"derives": "tintos",
@@ -814,7 +820,7 @@
 		},
 		"nestea-aquarius": {
 			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "nestea-aquarius.jpg",
 			"follows": "tapas-gratis",
 			"derives": "nestea-aquarius",
@@ -876,7 +882,7 @@
 		},
 		"quinto": {
 			"name": ["Quinto (Alhambra Especial)", "20 cl Special Alhambra"],
-			"price": 2.2,
+			"price": 2.3,
 			"image": "quinto.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -885,7 +891,7 @@
 		},
 		"tercio": {
 			"name": ["Tercio de Especial", "33 cl Special Alhambra"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "tercio.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -894,7 +900,7 @@
 		},
 		"radler-shandy": {
 			"name": ["Radler o Shandy", "Radler or Shandy"],
-			"price": 2.4,
+			"price": 2.5,
 			"follows": "tapas-gratis",
 			"image": "radler.jpg",
 			"derives": "radler-shandy",
@@ -912,7 +918,7 @@
 		},
 		"especiales": {
 			"name": ["1925, Heineken o Voll-Damm", "1925, Heineken or Voll-Damm"],
-			"price": 2.8,
+			"price": 3,
 			"follows": "tapas-gratis",
 			"image": "heineken.jpeg",
 			"derives": "especiales",
@@ -936,7 +942,7 @@
 		},
 		"1906": {
 			"name": "1906",
-			"price": 2.8,
+			"price": 3,
 			"image": "1906.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -954,7 +960,7 @@
 		},
 		"quinto-00": {
 			"name": ["Quinto 00", "20 cl Alcohol free beer"],
-			"price": 2.2,
+			"price": 2.3,
 			"image": "freedamm.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -963,7 +969,7 @@
 		},
 		"tercio-00": {
 			"name": ["Tercio 00", "33 cl Alcohol free beer"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "freedamm.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -988,7 +994,7 @@
 		},
 		"chupito": {
 			"name": ["Chupito", "Shot"],
-			"price": 1,
+			"price": 1.5,
 			"image": "chupito.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -996,7 +1002,7 @@
 		},
 		"copa-licor": {
 			"name": ["Copa de Licor", "Liqueur in Goblet glass"],
-			"price": 1.8,
+			"price": 2,
 			"image": "copa-licor.jpeg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -1004,7 +1010,7 @@
 		},
 		"vaso-licor": {
 			"name": ["Vaso de Licor", "Liqueur glass"],
-			"price": 3,
+			"price": 3.5,
 			"image": "vaso-licor.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": [],
@@ -1012,7 +1018,7 @@
 		},
 		"vino-terreno": {
 			"name": ["Vino del terreno", "Local wine"],
-			"price": 2.6,
+			"price": 2.8,
 			"image": "vino-terreno.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -1020,7 +1026,7 @@
 		},
 		"vino-blanco": {
 			"name": ["Vino blanco \"Rueda\"", "\"Rueda\" white wine"],
-			"prices": [13, 2.6],
+			"prices": [14, 2.8],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-blanco.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1029,7 +1035,7 @@
 		},
 		"vino-frizzante": {
 			"name": ["Vino Frizzante", "Frizzante wine"],
-			"prices": [13, 2.6],
+			"prices": [14, 2.8],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-frizzante.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1047,7 +1053,7 @@
 		},
 		"rioja": {
 			"name": "Rioja (crianza)",
-			"prices": [14, 2.8],
+			"prices": [15, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "rioja.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1056,7 +1062,7 @@
 		},
 		"ribera": {
 			"name": "Ribera del Duero (crianza)",
-			"prices": [14, 2.8],
+			"prices": [15, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "ribera.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1065,7 +1071,7 @@
 		},
 		"vino-casa": {
 			"name": ["Vino de la Casa", "House wine"],
-			"prices": [13, 2],
+			"prices": [15, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-casa.jpg",
 			"filters": ["vegetarian", "vegan"],
