@@ -212,10 +212,10 @@
 			"allergens": ["huevos", "lacteos", "gluten"],
 			"description": ["Con queso, huevo, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese, egg, tomato and mayonnaise. Served with fries to dip in our magic sauce (contains egg)."]
 		},
-"lomo": {
+		"lomo": {
 			"name": ["Bocata de lomo", "Pork loin sandwich"],
 			"price": 1.8,
-			"missing": "beicon.jpg",
+			"image": "lomo.jpeg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten", "huevos"],
 			"description": ["Con queso, lechuga, tomate y mahonesa. Acompañado de patatas fritas con nuestra salsa mágica (elaborada con huevo).", "With cheese, lettuce, tomato and mayonnaise. Served with with fries to dip in our magic sauce (contains egg)."]
