@@ -12,7 +12,7 @@
 		"tapas": {
 			"name": "Tapas",
 			"image": "beicon.jpg",
-			"items": ["beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
+			"items": ["pechuga-plancha", "beicon", "lomo", "carne-bocata", "burguer-pollo", "burguer-plancha", "jamon-bocata", "tortilla", "flamenquin", "finger", "huevo", "carne", "pinchitos", "calamares", "cazon", "sandwich", "sandwich-vegetal", "sandwich-mixto", "berenjenas", "queso", "jamon"],
 			"info": ["Nuestras <a href=\"#/section/bebidas\">bebidas</a> vienen acompañadas de una tapa gratis a elegir. Máximo dos variedades por mesa.", "Our <a href=\"#/section/bebidas\">drinks</a> are served with a free tapa to choose. Two varieties max per table."]
 		},
 		"tapas-gratis": {
@@ -21,7 +21,7 @@
 			"default": true,
 			"requires": "tapas-gratis",
 			"max": 2,
-			"items": ["beicon-gratis", "lomo-gratis", "carne-bocata-gratis", "burguer-pollo-gratis", "burguer-plancha-gratis", "jamon-bocata-gratis", "tortilla-gratis", "flamenquin-gratis", "finger-gratis", "huevo-gratis", "carne-gratis", "pinchitos-gratis", "calamares-gratis", "cazon-gratis", "sandwich-gratis", "sandwich-vegetal-gratis", "sandwich-mixto-gratis", "berenjenas-gratis", "queso-gratis", "jamon-gratis"],
+			"items": ["pechuga-plancha-gratis","beicon-gratis", "lomo-gratis", "carne-bocata-gratis", "burguer-pollo-gratis", "burguer-plancha-gratis", "jamon-bocata-gratis", "tortilla-gratis", "flamenquin-gratis", "finger-gratis", "huevo-gratis", "carne-gratis", "pinchitos-gratis", "calamares-gratis", "cazon-gratis", "sandwich-gratis", "sandwich-vegetal-gratis", "sandwich-mixto-gratis", "berenjenas-gratis", "queso-gratis", "jamon-gratis"],
 			"info": ["Elija su tapa para acompañar la bebida", "Choose the tapa to go with your drink"]
 		},
 		"tapas-dia": {
@@ -69,7 +69,7 @@
 		"bebidas": {
 			"name": ["Bebidas", "Drinks"],
 			"image": "refrescos.jpg",
-			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "1906", "roja", "quinto-00", "tercio-00", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
+			"items": ["refrescos", "vino-sin", "tinto-verano", "nestea-aquarius", "cana", "tubo", "quinto", "tercio", "radler-shandy", "especiales", "1906", "roja", "quinto-00", "tercio-00", "tercio-sin-gluten", "combinado", "combinado-especial", "chupito", "copa-licor", "vaso-licor"],
 			"info": ["Nuestras bebidas vienen acompañadas de una <a href=\"#/section/tapas\">tapa</a> gratis a elegir. Máximo dos variedades por mesa.", "Our drinks are served with a free <a href=\"#/section/tapas\">tapa</a> to choose. Two varieties max per table."]
 		},
 		"refrescos": {
@@ -124,6 +124,10 @@
 		}
 	},
 	"items": {
+		"pechuga-plancha-gratis": {
+			"template": "pechuga-plancha",
+			"price": 0
+		},
 		"beicon-gratis": {
 			"template": "beicon",
 			"price": 0
@@ -204,9 +208,17 @@
 			"template": "jamon",
 			"price": 0
 		},
+		"pechuga-plancha": {
+			"name": ["Pechuga a la plancha", "Grilled chicken breast"],
+			"price": 2.0,
+			"image": "",
+			"filters": [],
+			"allergens": ["huevos", "lacteos", "gluten"],
+			"description": ["", ""]
+		},
 		"beicon": {
 			"name": ["Bocata de beicon", "Bacon Sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "beicon.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
@@ -214,7 +226,7 @@
 		},
 		"lomo": {
 			"name": ["Bocata de lomo", "Pork loin sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "lomo.jpeg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten", "huevos"],
@@ -222,7 +234,7 @@
 		},
 		"carne-bocata": {
 			"name": ["Bocata de carne en salsa", "Saucy meat sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "carne-bocata.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
@@ -230,7 +242,7 @@
 		},
 		"burguer-pollo": {
 			"name": ["Burguer de pollo empanado", "Fried chicken burguer"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "burguer-pollo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
@@ -238,7 +250,7 @@
 		},
 		"burguer-plancha": {
 			"name": ["Burguer plancha", "Grilled Burger"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "burguer-plancha.jpg",
 			"filters": [],
 			"allergens": ["huevos", "sesamo", "gluten", "lacteos"],
@@ -246,7 +258,7 @@
 		},
 		"jamon-bocata": {
 			"name": ["Bocata de jamón serrano", "Cured ham sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"missing": "beicon.jpg",
 			"filters": [],
 			"allergens": ["lacteos", "gluten"],
@@ -254,7 +266,7 @@
 		},
 		"tortilla": {
 			"name": ["Bocata de tortilla francesa", "Omelet sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "tortilla.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["huevos", "gluten"],
@@ -262,7 +274,7 @@
 		},
 		"flamenquin": {
 			"name": "Flamenquín",
-			"price": 1.8,
+			"price": 2.0,
 			"image": "flamenquin.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos", "huevos"],
@@ -270,7 +282,7 @@
 		},
 		"finger": {
 			"name": ["Finger de pollo", "Chicken tenders"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "finger.jpg",
 			"filters": [],
 			"allergens": ["gluten", "huevos"],
@@ -278,7 +290,7 @@
 		},
 		"carne": {
 			"name": ["Carne en salsa", "Saucy meat"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "carne.jpg",
 			"filters": [],
 			"allergens": ["sulfitos", "gluten"],
@@ -286,23 +298,23 @@
 		},
 		"huevo": {
 			"name": ["Huevo con jamón y patatas", "Fried egg with ham and cheese"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "huevo.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
 			"description": ["Huevo frito con nuestro mejor jamón y patatas fritas para mojar", "Fried egg with our best cured ham and fries to dip"]
 		},
 		"pinchitos": {
-			"name": ["Pinchitos morunos", "Skewered pork"],
-			"price": 1.8,
+			"name": ["Pinchitos", "Skewered pork"],
+			"price": 2.0,
 			"image": "pinchitos.jpg",
 			"filters": [],
 			"allergens": [],
-			"description": ["El clásico pinchito moruno acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)", "Our classic skewered pork served with bread and fries to dip in our magic sauce (contains egg)"]
+			"description": ["El clásico pinchito acompañado de pan y patatas con nuestra salsa mágica (elaborada con huevo)", "Our classic skewered pork served with bread and fries to dip in our magic sauce (contains egg)"]
 		},
 		"calamares": {
 			"name": ["Calamares fritos", "Fried squid"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "calamares.jpg",
 			"filters": [],
 			"allergens": ["moluscos", "gluten"],
@@ -310,7 +322,7 @@
 		},
 		"cazon": {
 			"name": ["Cazón adobado", "Marinated dogfish"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "cazon.jpg",
 			"filters": [],
 			"allergens": ["pescado", "gluten"],
@@ -318,7 +330,7 @@
 		},
 		"sandwich": {
 			"name": ["Sándwich \"EL RONDEL\"", "\"EL RONDEL\" sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "sandwich.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos", "huevos"],
@@ -326,7 +338,7 @@
 		},
 		"sandwich-vegetal": {
 			"name": ["Sándwich vegetal", "Vegetable sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"missing": "sandwich.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten", "huevos"],
@@ -334,7 +346,7 @@
 		},
 		"sandwich-mixto": {
 			"name": ["Sándwich mixto", "Ham and cheese sandwich"],
-			"price": 1.8,
+			"price": 2.0,
 			"missing": "sandwich.jpg",
 			"filters": [],
 			"allergens": ["gluten", "lacteos"],
@@ -342,7 +354,7 @@
 		},
 		"berenjenas": {
 			"name": ["Berenjenas con miel", "Fried aubergines with honey"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "berenjenas.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["gluten"],
@@ -350,7 +362,7 @@
 		},
 		"queso": {
 			"name": ["Queso manchego", "Manchego cheese"],
-			"price": 1.8,
+			"price": 2.0,
 			"image": "queso.jpg",
 			"filters": ["vegetarian"],
 			"allergens": ["lacteos"],
@@ -358,7 +370,7 @@
 		},
 		"jamon": {
 			"name": ["Jamón serrano", "Cured ham"],
-			"price": 1.8,
+			"price": 2.0,
 			"missing": "jamon-queso.jpg",
 			"filters": [],
 			"allergens": [],
@@ -538,7 +550,7 @@
 		},
 		"berenjenas-racion": {
 			"name": ["Berenjenas fritas con miel", "Fried aubergines with honey"],
-			"prices":  [3.5, 6.0],
+			"prices":  [4.0, 7.0],
 			"pricesNames": [["Media", "Entera"], ["Half", "Platter"]],
 			"missing": "berenjenas.jpg",
 			"filters": ["vegetarian"],
@@ -590,7 +602,7 @@
 		},
 		"plato-dia": {
 			"name": ["Plato del día", "Daily special"],
-			"price":  3.5,
+			"price":  4,
 			"image": "plato-dia.jpeg",
 			"filters": [],
 			"allergens": ["moluscos", "apio", "gluten"],
@@ -598,7 +610,7 @@
 		},
 		"plato-combinado": {
 			"name": ["Plato combinado", "Combination platter"],
-			"price":  4.0,
+			"price":  4.5,
 			"missing": "calamares-racion.jpg",
 			"filters": [],
 			"allergens": ["huevos", "gluten"],
@@ -716,7 +728,7 @@
 		},
 		"refrescos": {
 			"name": ["Refrescos", "Refreshments"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "refrescos.jpg",
 			"follows": "tapas-gratis",
 			"derives": "refrescos",
@@ -791,7 +803,7 @@
 		},
 		"vino-sin": {
 			"name": ["Vino sin alcohol", "Alcohol free wine"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "vino-sin.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -800,7 +812,7 @@
 		},
 		"tinto-verano": {
 			"name": ["Tinto de verano", "Summer punch"],
-			"price": 2.4,
+			"price": 2.5,
 			"image": "tinto-verano.jpg",
 			"follows": "tapas-gratis",
 			"derives": "tintos",
@@ -820,7 +832,7 @@
 		},
 		"nestea-aquarius": {
 			"name": ["Nestea o Aquarius", "Nestea or Aquarius"],
-			"price": 2.5,
+			"price": 2.6,
 			"image": "nestea-aquarius.jpg",
 			"follows": "tapas-gratis",
 			"derives": "nestea-aquarius",
@@ -846,7 +858,7 @@
 		},
 		"cana": {
 			"name": ["Caña (Alhambra Especial o Radler Especial)", "Half pint (Special Alhambra or Special Radler)"],
-			"price": 2,
+			"price": 2.2,
 			"image": "cana.jpg",
 			"derives": "canas",
 			"follows": "tapas-gratis",
@@ -864,7 +876,7 @@
 		},
 		"tubo": {
 			"name": ["Tubo (Alhambra Especial o Radler Especial)", "Pint (Special Alhambra or Special Radler)"],
-			"price": 2.3,
+			"price": 2.4,
 			"image": "tubo.jpg",
 			"derives": "tubos",
 			"follows": "tapas-gratis",
@@ -951,7 +963,7 @@
 		},
 		"roja": {
 			"name": "Alhambra Reserva Roja",
-			"price": 3,
+			"price": 3.2,
 			"image": "roja.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
@@ -975,6 +987,15 @@
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
 			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
+		},
+		"tercio-sin-gluten":{
+			"name": ["Tercio Sin Gluten", "33 cl Alcohol free beer"],
+			"price": 3.2,
+			"image": "",
+			"follows": "tapas-gratis",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": ["sulfitos"],
+			"description": ["Para disfrutar todo el sabor de la cerveza sin gluten", "To enjoy all the flavour from the beer without gluten."]
 		},
 		"combinado": {
 			"name": ["Combinado", "Cocktails"],
@@ -1018,7 +1039,7 @@
 		},
 		"vino-terreno": {
 			"name": ["Vino del terreno", "Local wine"],
-			"price": 2.8,
+			"price": 3,
 			"image": "vino-terreno.jpg",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
@@ -1026,7 +1047,7 @@
 		},
 		"vino-blanco": {
 			"name": ["Vino blanco \"Rueda\"", "\"Rueda\" white wine"],
-			"prices": [14, 2.8],
+			"prices": [14, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-blanco.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1035,7 +1056,7 @@
 		},
 		"vino-frizzante": {
 			"name": ["Vino Frizzante", "Frizzante wine"],
-			"prices": [14, 2.8],
+			"prices": [14, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-frizzante.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1044,7 +1065,7 @@
 		},
 		"vino-semi-dulce": {
 			"name": ["Vino blanco semi-dulce", "Semi-sweet white wine"],
-			"prices": [14, 2.8],
+			"prices": [14, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-semi-dulce.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1053,7 +1074,7 @@
 		},
 		"rioja": {
 			"name": "Rioja (crianza)",
-			"prices": [15, 3],
+			"prices": [14, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "rioja.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1062,7 +1083,7 @@
 		},
 		"ribera": {
 			"name": "Ribera del Duero (crianza)",
-			"prices": [15, 3],
+			"prices": [14, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "ribera.jpg",
 			"filters": ["vegetarian", "vegan"],
@@ -1071,7 +1092,7 @@
 		},
 		"vino-casa": {
 			"name": ["Vino de la Casa", "House wine"],
-			"prices": [15, 3],
+			"prices": [14, 3],
 			"pricesNames": [["Botella", "Copa"], ["Bottle", "Glass"]],
 			"image": "vino-casa.jpg",
 			"filters": ["vegetarian", "vegan"],
