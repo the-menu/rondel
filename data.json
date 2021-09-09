@@ -211,10 +211,10 @@
 		"pechuga-plancha": {
 			"name": ["Pechuga a la plancha", "Grilled chicken breast"],
 			"price": 2.0,
-			"image": "",
+			"missing": "beicon.jpg",
 			"filters": [],
 			"allergens": ["huevos", "lacteos", "gluten"],
-			"description": ["", ""]
+			"description": ""
 		},
 		"beicon": {
 			"name": ["Bocata de beicon", "Bacon Sandwich"],
@@ -989,9 +989,9 @@
 			"description": ["Para disfrutar con todo el sabor sin alcohol.", "To enjoy all the flavour with no alcohol."]
 		},
 		"tercio-sin-gluten":{
-			"name": ["Tercio Sin Gluten", "33 cl Alcohol free beer"],
+			"name": ["Tercio Sin Gluten", "33 cl Gluten free beer"],
 			"price": 3.2,
-			"image": "",
+			"missing": "refrescos.jpg",
 			"follows": "tapas-gratis",
 			"filters": ["vegetarian", "vegan"],
 			"allergens": ["sulfitos"],
